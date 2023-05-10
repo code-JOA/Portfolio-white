@@ -26,6 +26,8 @@
 @media (max-width: 640px), (max-width: 768px) {
   .wrapper .container .menu {
     position: absolute;
+    list-style: none;
+    gap: 2rem;
   }
 }
 .wrapper .container .menu li a {
