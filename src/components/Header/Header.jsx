@@ -35,7 +35,9 @@ const Header = () => {
           </li>
         </ul>
 
-        <div className={css.menuIcon}></div>
+        <div className={css.menuIcon}>
+          BI
+        </div>
       </div>
     </motion.div>
   );
