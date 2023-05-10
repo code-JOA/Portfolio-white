@@ -35,6 +35,9 @@
     width: 50%;
     min-width: 15rem;
     background: white;
+    padding: 2rem;
+    display: flex;
+    border-radius: 2rem;
   }
 }
 .wrapper .container .menu li a {
