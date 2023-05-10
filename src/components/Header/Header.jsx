@@ -36,7 +36,7 @@ const Header = () => {
         </ul>
 
         <div className={css.menuIcon}>
-          BI
+          BiMenuAltRight size
         </div>
       </div>
     </motion.div>
