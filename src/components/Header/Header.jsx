@@ -3,7 +3,7 @@ import css from './Header.module.scss'
 
 const Header = () => {
   return (
-    <div className={padding $`{css.wrapper}`}>
+    <div className={`paddings ${css.wrapper}`}>
 
       <div className={css.container}>
 
