@@ -3,7 +3,11 @@ import css from './Header.module.scss'
 
 const Header = () => {
   return (
-    <div className="css wrapper"></div>
+    <div className={css.wrapper}>
+      <div className={css.container}>
+        
+      </div>
+    </div>
      
     )
 }
