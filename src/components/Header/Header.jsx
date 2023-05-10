@@ -1,5 +1,6 @@
 import React from 'react'
 import css from './Header.module.scss'
+import { BiPhoneCall } from 'react
 
 const Header = () => {
   return (
@@ -18,7 +19,7 @@ const Header = () => {
           <li><a href="">Testimonials</a></li>
           <li>
             <p> +44 746 080 8996</p>
-            <BiPhoneCall size={400}
+            <BiPhoneCall size={"40px"}/>
             </li>
         </ul>
 
