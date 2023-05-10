@@ -10,6 +10,7 @@ const Header = () => {
     initial="hidden"
     whileInView="show"
     variants={headerVariants}
+    viewport: {once: true}
     className={`paddings ${css.wrapper}`}>
 
       <div className={`flexCenter innerWidth ${css.container}`}>
