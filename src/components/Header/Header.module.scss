@@ -22,9 +22,10 @@
 
         .menu{
 
-            @media (max-width: $sm)
+            @media (max-width: $sm),
             (max-width: $md) {
                 position: absolute;
+                
                 
             }
             text-transform: uppercase;
