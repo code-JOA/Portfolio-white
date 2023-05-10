@@ -1,3 +1,6 @@
+@import '../../'
+
+
 .wrapper{
     position: relative;
     z-index: 99;
@@ -31,7 +34,7 @@
                 }
 
                 &:hover{
-                    
+                    color: $secondary
 
                 }
             }
