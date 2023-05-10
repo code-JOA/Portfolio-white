@@ -12,7 +12,7 @@ const Header = () => {
           Joshua
         </div>
 
-        <ul className={` {}`}>
+        <ul className={`flexCenter ${css.name}`}>
           <li><a href="">Services</a></li>
           <li><a href="">Experience</a></li>
           <li><a href="">Portfolio</a></li>
