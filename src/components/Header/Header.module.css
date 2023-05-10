@@ -11,4 +11,7 @@
   position: relative;
   justify-content: space-between;
   font-weight: 500;
+}
+.wrapper .container .name {
+  font-size: 1.5em;
 }/*# sourceMappingURL=Header.module.css.map */
