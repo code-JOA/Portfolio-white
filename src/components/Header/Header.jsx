@@ -13,8 +13,8 @@ const Header = () => {
 
         <ul>
           <li><a href="">Services</a></li>
-          <li><a href=""></a>Experience</li>
-          <li><a href=""></a></li>
+          <li><a href="">Experience</a></li>
+          <li><a href="">Testimonials</a></li>
           <li><a href=""></a></li>
           <li><a href=""></a></li>
         </ul>
