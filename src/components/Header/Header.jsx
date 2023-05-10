@@ -5,7 +5,10 @@ import { motion } from 'framer-motion'
 
 const Header = () => {
   return (
-    <div className={`paddings ${css.wrapper}`}>
+    <motion.div
+    initial="hidden"
+    whileInView={}
+    className={`paddings ${css.wrapper}`}>
 
       <div className={`flexCenter innerWidth ${css.container}`}>
 
@@ -25,7 +28,7 @@ const Header = () => {
         </ul>
 
       </div>
-    </div>
+    </motion.div>
      
     )
 }
