@@ -28,6 +28,9 @@
     position: absolute;
     list-style: none;
     gap: 2rem;
+    font-weight: 500;
+    flex-direction: column;
+    right: 0;
   }
 }
 .wrapper .container .menu li a {
