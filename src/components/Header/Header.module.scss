@@ -42,13 +42,12 @@
                 gap: 1.2rem;
                 flex-wrap: wrap;
                 
-                
+                //  this is for the color background of the phone
                 svg{
                     color: $secondary;
                     background: white;
                     border-radius: 999px;
                     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
-
 
                 }
             }
