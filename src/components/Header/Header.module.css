@@ -22,4 +22,8 @@
   list-style: none;
   gap: 1.5rem;
   cursor: pointer;
+}
+.wrapper .container .menu li a {
+  color: inherit;
+  text-decoration: none;
 }/*# sourceMappingURL=Header.module.css.map */
