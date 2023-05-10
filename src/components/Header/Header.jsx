@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className={`paddings ${css.wrapper}`}>
 
-      <div className={css.container}>
+      <div className={`flexCenter ${css.container}`}>
 
         <div className={css.name}>
           Joshua
