@@ -8,7 +8,7 @@ const Header = () => {
       <div className={css.container}>
 
         <div className={css.name}>
-          
+          Joshua
         </div>
 
       </div>
