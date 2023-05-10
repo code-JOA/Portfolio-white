@@ -1,7 +1,7 @@
 import React from 'react'
 import css from './Header.module.scss'
 import { BiPhoneCall } from 'react-icons/bi'
-import { motion }
+import { motion } from 'framer-motion'
 
 const Header = () => {
   return (
