@@ -40,6 +40,7 @@
     border-radius: 2rem;
     transition: all 300ms ease-in-out;
     align-items: flex-start;
+    padding: 3rem;
   }
 }
 .wrapper .container .menu li a {
