@@ -7,34 +7,38 @@ import { headerVariants } from '../../utils/motion'
 const Header = () => {
   return (
     <motion.div
-    initial="hidden"
-    whileInView="show"
-    variants={headerVariants}
-    viewport={{once: false, amount: 0.5}}
-    className={`paddings ${css.wrapper}`}>
-
+      initial="hidden"
+      whileInView="show"
+      variants={headerVariants}
+      viewport={{ once: false, amount: 0.5 }}
+      className={`paddings ${css.wrapper}`}
+    >
       <div className={`flexCenter innerWidth ${css.container}`}>
-
-        <div className={css.name}>
-          Joshua
-        </div>
+        <div className={css.name}>Joshua</div>
 
         <ul className={`flexCenter ${css.menu}`}>
-          <li><a href="">Services</a></li>
-          <li><a href="">Experience</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Testimonials</a></li>
+          <li>
+            <a href="">Services</a>
+          </li>
+          <li>
+            <a href="">Experience</a>
+          </li>
+          <li>
+            <a href="">Portfolio</a>
+          </li>
+          <li>
+            <a href="">Testimonials</a>
+          </li>
           <li className={`flexCenter ${css.phone}`}>
             <p> +44 746 080 8996</p>
-            <BiPhoneCall size={"40px"}/>
-            </li>
+            <BiPhoneCall size={"40px"} />
+          </li>
         </ul>
-        
 
+        <div className={css.menuIcon}></div>
       </div>
     </motion.div>
-     
-    )
+  );
 }
 
 export default Header
