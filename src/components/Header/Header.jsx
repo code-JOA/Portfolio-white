@@ -17,7 +17,7 @@ const Header = () => {
           <li><a href="">Portfolio</a></li>
           <li><a href="">Testimonials</a></li>
           <li>
-            <a href=""></a>
+            <p> +44 746 080 8996</p>
             </li>
         </ul>
 
