@@ -3,6 +3,7 @@ import css from './Header.module.scss'
 import { BiPhoneCall } from 'react-icons/bi'
 import { motion } from 'framer-motion'
 import { headerVariants } from '../../utils/motion'
+import BiMenuSize
 
 const Header = () => {
   return (
@@ -36,7 +37,7 @@ const Header = () => {
         </ul>
 
         <div className={css.menuIcon}>
-          BiMenuAltRight size
+          <BiMenuAltRight size={30} />
         </div>
       </div>
     </motion.div>
