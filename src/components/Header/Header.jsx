@@ -14,10 +14,11 @@ const Header = () => {
       whileInView="show"
       variants={headerVariants}
       viewport={{once: false, amount: 0.25}}
-      className={`paddings ${css.wrapper}`}
-    >
+      className={`paddings ${css.wrapper}`}>
+
       <div className={`flexCenter innerWidth ${css.container}`}>
-        <div className={css.name}>Joshua</div>
+        <div className={css.name}>
+          Joshua</div>
 
         <ul style={getMenuStyles(menuOpened)}
           className={`flexCenter ${css.menu}`}
