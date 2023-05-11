@@ -7,8 +7,8 @@ const Hero = () => {
         <div className={`innerWidth ${css.container}`}>
 
 
-                <div className={css.UpperElement}></div>
-                <div></div>
+                <div className={css.UpperElements}></div>
+                <div className={css.}></div>
 
         </div>
     </section>
