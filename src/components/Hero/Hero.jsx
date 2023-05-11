@@ -9,8 +9,9 @@ const Hero = () => {
 
                 <div className={css.upperElements}>
 
-                    <span>Het there, <br/>
-                    I am Joshua</span>
+                    <span>
+                        Hey there, <br/>I am Joshua
+                        </span>
                     <span></span>
                 </div>
                 <div className={css.lowerElements}></div>
