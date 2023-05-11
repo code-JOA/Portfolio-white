@@ -24,4 +24,8 @@
 }
 .wrapper .container .lowerElements .experience > :nth-child(2) {
   line-height: 25px;
+}
+.wrapper .container .lowerElements .certificate {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=Hero.module.css.map */
