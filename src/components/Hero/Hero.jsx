@@ -19,7 +19,8 @@ const Hero = () => {
                 {/* Lower elements */}
 
                 <div className={css.lowerElements}>
-                    
+                    <div className={css.experience}></div>
+                    <div className={css.}></div>
                 </div>
 
                 
