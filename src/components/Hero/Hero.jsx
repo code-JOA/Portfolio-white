@@ -3,7 +3,7 @@ import css from './Hero.module.scss'
 
 const Hero = () => {
   return (
-    <section className={css.wrapper}>
+    <section className={`padding ${css.wrapper}`}>
         Hero
     </section>
 
