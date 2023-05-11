@@ -37,4 +37,6 @@
 .wrapper .container .person {
   position: absolute;
   bottom: -2rem;
+  margin: auto;
+  background-image: url();
 }/*# sourceMappingURL=Hero.module.css.map */
