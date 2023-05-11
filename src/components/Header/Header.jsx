@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import css from "./Header.module.scss";
-import { BiPhoneCall } from "react-icons/bi";
+import { BiPhoneCall, BiMenuAltRight } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { getMenuStyles, headerVariants } from "../../utils/motion";
 import useHeaderShadow from '../../hooks/useHeaderShadow';
