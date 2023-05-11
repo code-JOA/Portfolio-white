@@ -18,7 +18,7 @@ const Hero = () => {
         </div>
 
         <div className={css.person}>
-            <img src="./Josh5.png" alt="" />
+            <img src="./josh6.png" alt="" />
         </div>
 
         {/* Lower elements */}
