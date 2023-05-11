@@ -29,7 +29,8 @@ const Hero = () => {
           </div>
           <div className={css.certificate}>
             <img src="./certificate.png" alt=""/>
-            span.CertifiedPr
+            <span className="Certified Professional"></span>
+            <span>UI/UX</span>
           </div>
         </div>
       </div>
