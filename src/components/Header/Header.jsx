@@ -48,9 +48,9 @@ const Header = () => {
           <BiMenuAltRight size={30}/>
         </div>
       </div>
-      
+
     </motion.div>
-  );
+  )
 }
 
 export default Header
