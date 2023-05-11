@@ -22,7 +22,10 @@ const Hero = () => {
         <div className={css.lowerElements}>
           <div className={css.experience}>
             <div className="primaryText">10 years</div>
-            <div className="secondaryText">of experience</div>
+            <div className="secondaryText">
+                <div className=></div>
+                <div></div>
+            </div>
           </div>
           <div className={css.certificate}></div>
         </div>
