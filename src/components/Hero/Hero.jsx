@@ -7,10 +7,10 @@ const Hero = () => {
       <div className={`innerWidth ${css.container}`}>
         {/* Upper Elements */}
         <div className={css.upperElements}>
-          <span>
+          <span className="primaryText">
             Hey there, <br />I am Joshua
           </span>
-          <span>
+          <span className="secondaryText">
             I turn design into code
             <br />
             And I love what I do
