@@ -4,34 +4,31 @@ import css from './Hero.module.scss'
 const Hero = () => {
   return (
     <section className={`padding ${css.wrapper}`}>
-        <div className={`innerWidth ${css.container}`}>
-
-                {/* Upper Elements */}
-                <div className={css.upperElements}>
-
-                    <span>
-                        Hey there, <br/>I am Joshua
-                        </span>
-                    <span>I turn design into code<br/>
-                    And I love what I do</span>
-                </div>
-
-                {/* Lower elements */}
-
-                <div className={css.lowerElements}>
-                    <div className={css.experience}>
-
-                        <div className="primaryText"></div>
-                    </div>
-                    <div className={css.certificate}></div>
-                </div>
-
-                
-
+      <div className={`innerWidth ${css.container}`}>
+        {/* Upper Elements */}
+        <div className={css.upperElements}>
+          <span>
+            Hey there, <br />I am Joshua
+          </span>
+          <span>
+            I turn design into code
+            <br />
+            And I love what I do
+          </span>
         </div>
-    </section>
 
-    )
+        {/* Lower elements */}
+
+        <div className={css.lowerElements}>
+          <div className={css.experience}>
+            <div className="primaryText">10 years</div>
+            <div className="secondaryText">of experience</div>
+          </div>
+          <div className={css.certificate}></div>
+        </div>
+      </div>
+    </section>
+  );
 }
 
 export default Hero
