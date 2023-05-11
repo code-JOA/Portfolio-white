@@ -14,18 +14,16 @@ const Header = () => {
       initial="hidden"
       whileInView="show"
       variants={headerVariants}
-      viewport={{once: false, amount: 0.25}}
-      className={`paddings ${css.wrapper}`}>
-      style={{boxShadow : headerShadow}  
-      }
+      viewport={{ once: false, amount: 0.25 }}
+      className={`paddings ${css.wrapper}`}
+      style={{ boxShadow: headerShadow }}
+      >
       <div className={`flexCenter innerWidth ${css.container}`}>
-        <div className={css.name}>
-          Joshua
-          </div>
+        <div className={css.name}>Joshua</div>
 
-        <ul 
-        style={getMenuStyles(menuOpened)}
-        className={`flexCenter ${css.menu}`}
+        <ul
+          style={getMenuStyles(menuOpened)}
+          className={`flexCenter ${css.menu}`}
         >
           <li>
             <a href="">Services</a>
@@ -45,13 +43,13 @@ const Header = () => {
           </li>
         </ul>
         {/* For only medium and small screens */}
-        <div className={css.menuIcon}
-        onClick={()=>setMenuOpened((prev)=>!prev)}
+        <div
+          className={css.menuIcon}
+          onClick={() => setMenuOpened((prev) => !prev)}
         >
-          <BiMenuAltRight size={30}/>
+          <BiMenuAltRight size={30} />
         </div>
       </div>
-
     </motion.div>
   );
 };
