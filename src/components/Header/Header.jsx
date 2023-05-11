@@ -3,7 +3,7 @@ import css from "./Header.module.scss";
 import { BiMenuAltRight, BiPhoneCall } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { getMenuStyles, headerVariants } from "../../utils/motion";
-import { }
+import { useHeaderShadow } from '../../hooks/useHeaderShadow';
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
