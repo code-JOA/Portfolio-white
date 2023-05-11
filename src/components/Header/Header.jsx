@@ -1,13 +1,12 @@
-import React from 'react'
-import css from './Header.module.scss'
-import { BiMenuAltRight,BiPhoneCall } from 'react-icons/bi'
-import { motion } from 'framer-motion'
-import { getMenuStyles, headerVariants } from '../../utils/motion'
+import React from "react";
+import css from "./Header.module.scss";
+import { BiMenuAltRight, BiPhoneCall } from "react-icons/bi";
+import { motion } from "framer-motion";
+import { getMenuStyles, headerVariants } from "../../utils/motion";
 
 const Header = () => {
-
   const [menuOpened, setMenuOpened] = useState(false);
-  const headerShadow = useHeaderShadow(false)
+  const headerShadow = useHeaderShadow(false);
 
   return (
     <motion.div
@@ -17,7 +16,7 @@ const Header = () => {
       viewport={{ once: false, amount: 0.25 }}
       className={`paddings ${css.wrapper}`}
       style={{ boxShadow: headerShadow }}
-      >
+    >
       <div className={`flexCenter innerWidth ${css.container}`}>
         <div className={css.name}>Joshua</div>
 
@@ -54,4 +53,4 @@ const Header = () => {
   );
 };
 
-export default Header
+export default Header;
