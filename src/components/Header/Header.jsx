@@ -7,7 +7,7 @@ import { headerVariants } from '../../utils/motion'
 const Header = () => {
 
   const [menuOpened, setMenuOpened] = useState(false);
-  
+
   return (
     <motion.div
       initial="hidden"
@@ -39,6 +39,7 @@ const Header = () => {
         </ul>
 
         <div className={css.menuIcon}>
+          
           <BiMenuAltRight size={30} />
         </div>
       </div>
