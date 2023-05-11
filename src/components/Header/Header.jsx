@@ -18,7 +18,8 @@ const Header = () => {
 
       <div className={`flexCenter innerWidth ${css.container}`}>
         <div className={css.name}>
-          Joshua</div>
+          Joshua
+          </div>
 
         <ul style={getMenuStyles(menuOpened)}
           className={`flexCenter ${css.menu}`}
