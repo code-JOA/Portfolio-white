@@ -17,7 +17,9 @@ const Hero = () => {
           </span>
         </div>
 
-        div.{css.person}
+        <div className={css.person}>
+            <img src="./Josh5.png" alt="" />
+        </div>
 
         {/* Lower elements */}
 
