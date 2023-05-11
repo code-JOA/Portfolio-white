@@ -14,4 +14,6 @@
 .wrapper .container .lowerElements {
   margin-top: 12rem;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }/*# sourceMappingURL=Hero.module.css.map */
