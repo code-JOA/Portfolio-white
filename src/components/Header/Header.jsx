@@ -37,7 +37,7 @@ const Header = () => {
             <BiPhoneCall size={"40px"} />
           </li>
         </ul>
-
+        {/*  */}
         <div className={css.menuIcon} 
         onclick={()=>setMenuOpened((prev)=>!prev)}>
           <BiMenuAltRight size={30} />
