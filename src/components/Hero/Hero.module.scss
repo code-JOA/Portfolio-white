@@ -21,6 +21,13 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
+
+            .experience{
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                
+            }
         }
     }
 

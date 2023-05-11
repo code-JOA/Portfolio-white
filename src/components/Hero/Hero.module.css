@@ -16,4 +16,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.wrapper .container .lowerElements .experience {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }/*# sourceMappingURL=Hero.module.css.map */
