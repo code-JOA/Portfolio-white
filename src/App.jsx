@@ -5,6 +5,7 @@ const App = () => {
   return (
     <div className={`bg-primary ${css.container}`}>
       <Header />
+      <Hero />
     </div>
   );
 };
