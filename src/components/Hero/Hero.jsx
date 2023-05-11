@@ -23,13 +23,13 @@ const Hero = () => {
           <div className={css.experience}>
             <div className="primaryText">10</div>
             <div className="secondaryText">
-                <div>Years</div>
-                <div>Experience</div>
+              <div>Years</div>
+              <div>Experience</div>
             </div>
           </div>
           <div className={css.certificate}>
-            <img src="./certificate.png" alt=""/>
-            <span className="Certified Professional"></span>
+            <img src="./certificate.png" alt="" />
+            <span>Certified Professional</span>
             <span>UI/UX</span>
           </div>
         </div>
