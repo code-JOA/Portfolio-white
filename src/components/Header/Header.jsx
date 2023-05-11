@@ -23,7 +23,7 @@ const Header = () => {
 
         <ul 
         style={getMenuStyles(menuOpened)}
-          className={`flexCenter ${css.menu}`}
+        className={`flexCenter ${css.menu}`}
         >
           <li>
             <a href="">Services</a>
