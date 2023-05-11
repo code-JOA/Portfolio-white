@@ -33,4 +33,8 @@
 .wrapper .container .lowerElements .certificate img {
   margin-bottom: 1rem;
   width: 3.5rem;
+}
+.wrapper .container .person {
+  position: absolute;
+  bottom: -2rem;
 }/*# sourceMappingURL=Hero.module.css.map */
