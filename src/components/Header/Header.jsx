@@ -7,7 +7,7 @@ import { getMenuStyles, headerVariants } from '../../utils/motion'
 const Header = () => {
 
   const [menuOpened, setMenuOpened] = useState(false);
-  const headerShadow 
+  const headerShadow = useHeaderShadow(false)
 
   return (
     <motion.div
