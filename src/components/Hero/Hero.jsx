@@ -6,6 +6,10 @@ const Hero = () => {
     <section className={`padding ${css.wrapper}`}>
         <div className={`innerWidth ${css.container}`}>
 
+
+            <div></div>
+            <div></div>
+
         </div>
     </section>
 
