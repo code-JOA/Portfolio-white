@@ -38,8 +38,8 @@ const Header = () => {
           </li>
         </ul>
 
-        <div className={css.menuIcon}>
-          onClick={()=>setMenuOpened{()}}
+        <div className={css.menuIcon} 
+        onclick={}>
           <BiMenuAltRight size={30} />
         </div>
       </div>
