@@ -17,6 +17,8 @@ const Hero = () => {
           </span>
         </div>
 
+        div.{css.person}
+
         {/* Lower elements */}
 
         <div className={css.lowerElements}>
