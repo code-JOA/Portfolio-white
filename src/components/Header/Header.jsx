@@ -11,24 +11,32 @@ const Header = () => {
 
   return (
     <motion.div
+      variants={headerVariants}
       initial="hidden"
       whileInView="show"
-      variants={headerVariants}
       viewport={{ once: true, amount: 0.25 }}
       className={`bg-primary paddings ${css.wrapper}`}
-      style={{boxShadow: headerShadow}}
+      style={{ boxShadow: headerShadow }}
     >
-      <div className={`innerWidth ${css.container}`}>
+      <div className={`innerWidth ${css.container} flexCenter`}>
         <div className={css.name}>Joshua</div>
 
         <ul
           style={getMenuStyles(menuOpened)}
           className={`flexCenter ${css.menu}`}
         >
-          <li><a href="">Services</a></li>
-          <li><a href="">Experience</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Testimonials</a></li>
+          <li>
+            <a href="">Services</a>
+          </li>
+          <li>
+            <a href="">Experience</a>
+          </li>
+          <li>
+            <a href="">Portfolio</a>
+          </li>
+          <li>
+            <a href="">Testimonials</a>
+          </li>
           <li className={`flexCenter ${css.phone}`}>
             <p> +44 746 080 8996</p>
             <BiPhoneCall size={"40px"} />
