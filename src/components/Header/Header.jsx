@@ -19,8 +19,9 @@ const Header = () => {
       <div className={`flexCenter innerWidth ${css.container}`}>
         <div className={css.name}>Joshua</div>
 
-        <ul className={`flexCenter ${css.menu}`}>
-          style={getMenuStyles(menuOpened)}
+        <ul style={getMenuStyles(menuOpened)}
+          className={`flexCenter ${css.menu}`}
+        >
           <li>
             <a href="">Services</a>
           </li>
@@ -39,8 +40,10 @@ const Header = () => {
           </li>
         </ul>
         {/* For only medium and small screens */}
-        <div className={css.menuIcon} 
-        onclick={()=>setMenuOpened((prev)=>!prev)}>
+        <div
+          className={css.menuIcon}
+          onclick={() => setMenuOpened((prev) => !prev)}
+        >
           <BiMenuAltRight size={30} />
         </div>
       </div>
