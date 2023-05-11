@@ -12,7 +12,8 @@ const Hero = () => {
                     <span>
                         Hey there, <br/>I am Joshua
                         </span>
-                    <span></span>
+                    <span>I turn design into code<br/>
+                    </span>
                 </div>
                 <div className={css.lowerElements}></div>
 
