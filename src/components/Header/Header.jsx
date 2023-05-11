@@ -2,7 +2,7 @@ import React from 'react'
 import css from './Header.module.scss'
 import { BiMenuAltRight,BiPhoneCall } from 'react-icons/bi'
 import { motion } from 'framer-motion'
-import { headerVariants } from '../../utils/motion'
+import { getMenuStyles, headerVariants } from '../../utils/motion'
 
 const Header = () => {
 
@@ -20,7 +20,7 @@ const Header = () => {
         <div className={css.name}>Joshua</div>
 
         <ul className={`flexCenter ${css.menu}`}>
-          
+          style={getMenuStyles(menuOpened)}
           <li>
             <a href="">Services</a>
           </li>
