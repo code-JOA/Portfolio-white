@@ -29,4 +29,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.wrapper .container .lowerElements .certificate img {
+  margin-bottom: 1rem;
+  width: 3.5rem;
 }/*# sourceMappingURL=Hero.module.css.map */
