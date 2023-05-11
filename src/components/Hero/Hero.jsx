@@ -27,7 +27,10 @@ const Hero = () => {
                 <div>Experience</div>
             </div>
           </div>
-          <div className={css.certificate}></div>
+          <div className={css.certificate}>
+            <img src="./certificate.png" alt=""/>
+            span.CertifiedPr
+          </div>
         </div>
       </div>
     </section>
