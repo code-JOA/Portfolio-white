@@ -39,7 +39,7 @@ const Header = () => {
         </ul>
 
         <div className={css.menuIcon}>
-          
+          onClick={{preventDefault()}}
           <BiMenuAltRight size={30} />
         </div>
       </div>
