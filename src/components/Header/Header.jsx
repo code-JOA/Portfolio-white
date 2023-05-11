@@ -13,7 +13,7 @@ const Header = () => {
       initial="hidden"
       whileInView="show"
       variants={headerVariants}
-      viewport={{ once: false, amount: 0.5 }}
+      viewport={{once: false, amount: 0.25}}
       className={`paddings ${css.wrapper}`}
     >
       <div className={`flexCenter innerWidth ${css.container}`}>
