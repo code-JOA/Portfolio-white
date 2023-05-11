@@ -39,7 +39,7 @@ const Header = () => {
         </ul>
 
         <div className={css.menuIcon} 
-        onclick={()=>setMenuOpenopen(prev)=>!prev}>
+        onclick={()=>setMenuOpened((prev)=>!prev)}>
           <BiMenuAltRight size={30} />
         </div>
       </div>
