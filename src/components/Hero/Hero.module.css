@@ -28,4 +28,5 @@
 .wrapper .container .lowerElements .certificate {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }/*# sourceMappingURL=Hero.module.css.map */
