@@ -41,7 +41,7 @@ const Header = () => {
         </ul>
         {/* For only medium and small screens */}
         <div className={css.menuIcon}
-          onClick={()=>setMenuOpened((prev) => !prev)}
+          onClick={()=>setMenuOpened((prev)=>!prev)}
         >
           <BiMenuAltRight size={30} />
         </div>
