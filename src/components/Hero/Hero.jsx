@@ -15,9 +15,14 @@ const Hero = () => {
                     <span>I turn design into code<br/>
                     And I love what I do</span>
                 </div>
-                <div className={css.lowerElements}></div>
 
                 {/* Lower elements */}
+
+                <div className={css.lowerElements}>
+                    
+                </div>
+
+                
 
         </div>
     </section>
