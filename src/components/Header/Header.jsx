@@ -21,7 +21,8 @@ const Header = () => {
           Joshua
           </div>
 
-        <ul style={getMenuStyles(menuOpened)}
+        <ul 
+        style={getMenuStyles(menuOpened)}
           className={`flexCenter ${css.menu}`}
         >
           <li>
