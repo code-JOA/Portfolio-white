@@ -16,8 +16,8 @@ const Header = () => {
       variants={headerVariants}
       viewport={{once: false, amount: 0.25}}
       className={`paddings ${css.wrapper}`}>
-      style: boxShadow : header  
-
+      style={{boxShadow : headerShadow}  
+      }
       <div className={`flexCenter innerWidth ${css.container}`}>
         <div className={css.name}>
           Joshua
