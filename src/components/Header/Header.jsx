@@ -18,7 +18,7 @@ const Header = () => {
       className={`bg-primary paddings ${css.wrapper}`}
       style={{boxShadow: headerShadow}}
     >
-      <div className={`flexCenter innerWidth ${css.container}`}>
+      <div className={`innerWidth ${css.container}`}>
         <div className={css.name}>Joshua</div>
 
         <ul
