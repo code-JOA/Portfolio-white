@@ -13,7 +13,9 @@ const Experience = () => {
 
             {
                 projectExperience.map((exp, 1))
-                
+                return <div className={css.exp} key{i}>
+
+                </div>
 
             }
         </div>
