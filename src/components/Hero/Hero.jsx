@@ -10,7 +10,7 @@ const Hero = () => {
         variant= {staggerContainer}
         initial= "hidden"
         whileInView= "show"
-        
+        viewport= {{once: false, }}
 
 
 
