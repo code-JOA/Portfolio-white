@@ -54,7 +54,11 @@
             }
         }
         .person{
-            @media
+            @media (max-width: $sm), (max-width: $md){
+                position: relative;
+                left: 0;
+                background
+            }
             position: absolute;
             bottom: -2rem;
             margin: auto;

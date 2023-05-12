@@ -57,6 +57,12 @@
   background-size: 23rem;
   left: 33%;
 }
+@media (max-width: 640px), (max-width: 768px) {
+  .wrapper .container .person {
+    position: relative;
+    left: 0;
+  }
+}
 .wrapper .container .email {
   position: absolute;
   top: 50%;
