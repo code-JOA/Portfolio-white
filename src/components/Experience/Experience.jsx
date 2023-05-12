@@ -5,7 +5,12 @@ const Experience = () => {
   return (
     <section className={css.wrapper}>
       <div className={`paddings yPaddings flexCenter innerWidth ${css.container}`}>
-        Experience
+
+
+        <div className={}></div>
+        <div></div>
+
+
       </div>
     </section>
   );
