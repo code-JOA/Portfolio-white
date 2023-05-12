@@ -73,4 +73,9 @@
   top: 50%;
   left: 0;
   color: orange;
+}
+@media (max-width: 640px) {
+  .wrapper .container .email {
+    position: relative;
+  }
 }/*# sourceMappingURL=Hero.module.css.map */

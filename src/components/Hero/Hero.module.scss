@@ -73,6 +73,11 @@
         }
 
         .email{
+            @media (max-width: $sm) {
+                position: relative;
+                display
+                
+            }
             position: absolute;
             top: 50%;
             left: 0;
