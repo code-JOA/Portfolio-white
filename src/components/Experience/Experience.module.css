@@ -37,4 +37,8 @@ wrapper .container .leftSide .exp > :nth-child(2) {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+wrapper .container .leftSide .exp > :nth-child(2) > :nth-child(1) {
+  font-size: 1.6rem;
+  font-weight: bold;
 }/*# sourceMappingURL=Experience.module.css.map */

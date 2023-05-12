@@ -44,7 +44,11 @@ wrapper{
                     display: flex;
                     flex-direction: column;
                     gap: 1rem;
-                    
+
+                    >:nth-child(1){
+                        font-size: 1.6rem;
+                        font-weight: bold;
+                    }
                 }
 
             }
