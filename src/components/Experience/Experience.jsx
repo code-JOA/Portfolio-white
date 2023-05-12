@@ -12,12 +12,13 @@ const Experience = () => {
         <div className={css.leftSide}>
 
             {
-                projectExperience.map((exp, 1))=>(
+                projectExperience.map((exp, 1)=>{
                 return <div className={css.exp} key{i}>
 
                 </div>
+                })
 
-            })
+            }
         </div>
 
         <div className={css.rightSide}></div>
