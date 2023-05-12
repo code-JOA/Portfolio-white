@@ -15,15 +15,12 @@ const Experience = () => {
                 projectExperience.map((exp, i)=>{
                     return <div className={css.exp} key={i}>
                         <div className="flexCenter">
-                            <exp.icon size={30}  color="white" />
+                            <exp.icon size={25}  color="white" />
                         </div>
 
                         <div>
-                            <span>
-                                {exp.name}
-                            </span><span>
-                                {exp.project}
-                            </span>
+                            <span>{exp.name}</span>
+                            <span>{exp.project}</span>
                         </div>
                 </div>
                 })
