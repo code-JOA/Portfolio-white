@@ -57,7 +57,10 @@
             @media (max-width: $sm), (max-width: $md){
                 position: relative;
                 left: 0;
-                background
+                background-size: 20rem;
+                display: flex;
+                align-items: center;
+                justi
             }
             position: absolute;
             bottom: -2rem;

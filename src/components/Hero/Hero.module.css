@@ -61,6 +61,8 @@
   .wrapper .container .person {
     position: relative;
     left: 0;
+    background-size: 20rem;
+    display: flex;
   }
 }
 .wrapper .container .email {
