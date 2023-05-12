@@ -1,10 +1,11 @@
 import React from 'react'
 import css from './Hero.module.scss'
+import { motion } from 
 
 const Hero = () => {
   return (
     <section className={`padding ${css.wrapper}`}>
-      <div className={`innerWidth ${css.container}`}>
+      <motion.div className={`innerWidth ${css.container}`}>
         {/* Upper Elements */}
         <div className={css.upperElements}>
           <span className="primaryText">
@@ -42,7 +43,7 @@ const Hero = () => {
             <span>UI/UX Designer</span>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }
