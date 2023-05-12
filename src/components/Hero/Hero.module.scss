@@ -1,15 +1,15 @@
-@import '../../styles/contants.scss' ;
+@import '../../styles/contants.scss';
 
-.wrapper{
+.wrapper {
     overflow: hidden;
 
-    .container{
+
+    .container {
         position: relative;
         z-index: 1;
 
-
-        .upperElements{
-            @media (max-width: $sm){
+        .upperElements {
+            @media (max-width: $sm) {
                 justify-content: center;
                 text-align: center;
                 gap: 2rem;
@@ -20,8 +20,9 @@
             flex-wrap: wrap;
         }
 
-        .lowerElements{
-            @media (max-width: $sm),(max-width: $md){
+
+        .lowerElements {
+            @media (max-width: $sm), (max-width: $md) {
                 margin-top: 4rem;
                 gap: 2rem;
                 justify-content: center;
@@ -30,29 +31,29 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            .experience{
+            .experience {
                 display: flex;
                 align-items: center;
                 gap: 1rem;
-
-                >:nth-child(2){
+                >:nth-child(2) {
                     line-height: 25px;
                 }
             }
 
-            .certificate{
+            .certificate {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
 
-                img{
+                img {
                     margin-bottom: 1rem;
                     width: 3.5rem;
                 }
             }
         }
-        .person{
-            @media (max-width: $sm), (max-width: $md){
+
+        .person {
+            @media (max-width: $sm ), (max-width: $md) {
                 position: relative;
                 left: 0;
                 background-size: 20rem;
@@ -64,22 +65,21 @@
             position: absolute;
             bottom: -2rem;
             margin: auto;
-            background-image: url(../splash.png);
+            background-image: url("../splash.png");
             background-repeat: no-repeat;
             background-size: 23rem;
             left: 33%;
 
-            img{
-                @media (max-width: $sm){
+            img {
+                @media (max-width: $sm ) {
                     width: 23rem;
-                    margin-bottom: -5px;
-
                 }
+                margin-bottom: -5px;
             }
         }
 
-        .email{
-            @media (max-width: $sm) {
+        .email {
+            @media (max-width: $sm ) {
                 position: relative;
                 display: none;
             }
@@ -89,5 +89,4 @@
             color: orange;
         }
     }
-
 }
