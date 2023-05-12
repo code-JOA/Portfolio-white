@@ -10,11 +10,8 @@ const Hero = () => {
         variant= {staggerContainer}
         initial= "hidden"
         whileInView= "show"
-        viewport= {{once: false, }}
-
-
-
-      className={`innerWidth ${css.container}`}>
+        viewport= {{once: false, amount: 0.25}}
+        className={`innerWidth ${css.container}`}>
         
         {/* Upper Elements */}
         <div className={css.upperElements}>
