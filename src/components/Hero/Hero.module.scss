@@ -72,7 +72,9 @@
             left: 33%;
 
             img{
-                
+                @media (max-width: $sm){
+                    width: 23rem;
+                }
             }
         }
 

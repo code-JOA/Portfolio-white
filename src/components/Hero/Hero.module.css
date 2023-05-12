@@ -68,6 +68,11 @@
     background-position: bottom;
   }
 }
+@media (max-width: 640px) {
+  .wrapper .container .person img {
+    width: 23rem;
+  }
+}
 .wrapper .container .email {
   position: absolute;
   top: 50%;
