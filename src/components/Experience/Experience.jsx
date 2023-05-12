@@ -20,7 +20,7 @@ const Experience = () => {
 
                         <div>
                             <span>{exp.name}</span>
-                            <span>{exp.project}</span>
+                            <span>{exp.projects}</span>
                         </div>
                 </div>
                 })
