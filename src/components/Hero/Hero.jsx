@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className={`padding ${css.wrapper}`}>
       <motion.div 
-        variant= {staggerContainer}
+        variants= {staggerContainer}
         initial= "hidden"
         whileInView= "show"
         viewport= {{once: false, amount: 0.25}}
@@ -16,7 +16,7 @@ const Hero = () => {
         {/* Upper Elements */}
         <div className={css.upperElements}>
             <motion.span>
-                
+                variants
             </motion.span>
           <span className="primaryText">
             Hey there, <br />I am Joshua
