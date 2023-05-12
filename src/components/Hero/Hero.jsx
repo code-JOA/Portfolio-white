@@ -21,21 +21,26 @@ const Hero = () => {
           >
             Hey there, <br />I am Joshua
           </motion.span>
-        {/* animation fades in left ,for 0.4seconds delay 1 second  */}
-          <motion.span className="secondaryText" 
-          variants={fadeIn("left", "tween", 0.4, 1)}>
+          {/* animation fades in left ,for 0.4seconds delay 1 second  */}
+          <motion.span
+            className="secondaryText"
+            variants={fadeIn("left", "tween", 0.4, 1)}
+          >
             I turn design into code
             <br />
             And I love what I do
           </motion.span>
         </div>
         {/* image goes here */}
-        <motion.div 
-        variants={fadeIn("Up", "tween", 0.3 , 1)}
-        className={css.person}>
-          <motion.img 
-          variants={slideIn("Down", "tween", 0.5 , 1.3)}
-          src="./josh6.png" alt="" />
+        <motion.div
+          variants={fadeIn("Up", "tween", 0.3, 1)}
+          className={css.person}
+        >
+          <motion.img
+            variants={slideIn("Down", "tween", 0.5, 1.3)}
+            src="./josh6.png"
+            alt=""
+          />
         </motion.div>
 
         {/* email goes here  */}
@@ -45,22 +50,23 @@ const Hero = () => {
 
         {/* Lower elements */}
 
-        <motion.div 
-        variants={fadeIn("right" , 0.3, 1)}
-        className={css.lowerElements}>
-          <div className={css.experience}>
+        <div className={css.lowerElements}>
+          <motion.div
+            variants={fadeIn("right", 0.3, 1)}
+            className={css.experience}
+          >
             <div className="primaryText">10</div>
             <div className="secondaryText">
               <div>Years</div>
               <div>Experience</div>
             </div>
-          </div>
+          </motion.div>
           <div className={css.certificate}>
             <img src="./certificate.png" alt="" />
             <span>Certified Professional</span>
             <span>UI/UX Designer</span>
           </div>
-        </motion.div>
+        </div>
       </motion.div>
     </section>
   );
