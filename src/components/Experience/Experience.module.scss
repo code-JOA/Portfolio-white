@@ -17,7 +17,9 @@ wrapper{
             gap: 2rem;
 
             .exp{
-                
+                display: flex;
+                align-items: center;
+                border: 1px solid $secondary.white;
             }
         }
     }

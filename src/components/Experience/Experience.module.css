@@ -13,4 +13,9 @@ wrapper .container .leftSide {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+wrapper .container .leftSide .exp {
+  display: flex;
+  align-items: center;
+  border: 1px solid #286F6C;
 }/*# sourceMappingURL=Experience.module.css.map */
