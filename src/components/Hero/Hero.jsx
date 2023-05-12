@@ -17,10 +17,10 @@ const Hero = () => {
         <div className={css.upperElements}>
             
         <motion.span 
-            variants={fadeIn("right", "tween", 0.25, 1)}          
+            variants={fadeIn("right", "tween", 0.2, 1)}          
             className="primaryText">
 
-                
+
             Hey there, <br />I am Joshua
         </motion.span>
         <span className="secondaryText">
