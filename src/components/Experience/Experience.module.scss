@@ -3,5 +3,10 @@
 wrapper{
     background: white;
 
-    .cont
+    .container{
+        align-items: flex-start;
+        gap: 2rem;
+        flex-wrap: wrap;
+        
+    }
 }
