@@ -25,11 +25,11 @@ const Hero = () => {
             I turn design into code
             <br />
             And I love what I do
-          </span>
+        </span>
         </div>
         {/* image goes here */}
         <div className={css.person}>
-          <img src="./josh6.png" alt="" />
+            <img src="./josh6.png" alt="" />
         </div>
 
         {/* email goes here  */}
