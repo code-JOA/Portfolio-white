@@ -8,6 +8,7 @@ const Experience = () => {
     <section className={css.wrapper}>
       <div
         className={`paddings yPaddings innerWidth flexCenter ${css.container}`}>
+            {/* left Side */}
         <div className={css.leftSide}>
           {projectExperience.map((exp, i) => {
             return (
