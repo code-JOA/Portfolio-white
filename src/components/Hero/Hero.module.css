@@ -11,6 +11,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+@max-width : $sm {}
 .wrapper .container .lowerElements {
   margin-top: 12rem;
   display: flex;
