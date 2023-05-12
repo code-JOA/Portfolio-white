@@ -70,14 +70,16 @@
             background-repeat: no-repeat;
             background-size: 23rem;
             left: 33%;
+
+            img{
+                
+            }
         }
 
         .email{
             @media (max-width: $sm) {
                 position: relative;
                 display: none;
-                
-                
             }
             position: absolute;
             top: 50%;
