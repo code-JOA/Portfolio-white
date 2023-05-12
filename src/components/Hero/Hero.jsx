@@ -1,11 +1,12 @@
-import React from 'react'
-import css from './Hero.module.scss'
-import { motion } from 
+import React from 'react';
+import css from './Hero.module.scss';
+import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
     <section className={`padding ${css.wrapper}`}>
       <motion.div className={`innerWidth ${css.container}`}>
+        variant: {stagger}
         {/* Upper Elements */}
         <div className={css.upperElements}>
           <span className="primaryText">
