@@ -8,7 +8,10 @@ const Hero = () => {
     <section className={`padding ${css.wrapper}`}>
       <motion.div 
         variant= {staggerContainer}
-        initial= none
+        initial= "hidden"
+        whileInView= "show"
+        
+
 
 
       className={`innerWidth ${css.container}`}>
