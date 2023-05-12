@@ -61,11 +61,13 @@ const Hero = () => {
               <div>Experience</div>
             </div>
           </motion.div>
-          <div className={css.certificate}>
+          <motion.div 
+          variants={fadeIn}
+          className={css.certificate}>
             <img src="./certificate.png" alt="" />
             <span>Certified Professional</span>
             <span>UI/UX Designer</span>
-          </div>
+          </motion.div>
         </div>
       </motion.div>
     </section>
