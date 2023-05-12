@@ -9,8 +9,9 @@
 
 
         .upperElements{
-            @media (max-width: $sm{
-
+            @media (max-width: $sm){
+                justify-content: center;
+                text-align: center;
             }
             display: flex;
             align-items: center;
