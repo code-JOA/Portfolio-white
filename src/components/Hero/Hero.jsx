@@ -15,6 +15,9 @@ const Hero = () => {
         
         {/* Upper Elements */}
         <div className={css.upperElements}>
+            <motion.span>
+                
+            </motion.span>
           <span className="primaryText">
             Hey there, <br />I am Joshua
           </span>
