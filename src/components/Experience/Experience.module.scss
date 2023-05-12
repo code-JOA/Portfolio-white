@@ -22,7 +22,9 @@ wrapper{
                 border: 1px solid $secondary-white;
                 border-radius: 20px;
                 padding: 1.5rem;
-                
+                gap: 2rem;
+                transition: all 200ms ease-out;
+
             }
         }
     }

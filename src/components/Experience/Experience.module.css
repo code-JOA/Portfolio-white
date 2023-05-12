@@ -20,4 +20,6 @@ wrapper .container .leftSide .exp {
   border: 1px solid #E7E7E7;
   border-radius: 20px;
   padding: 1.5rem;
+  gap: 2rem;
+  transition: all 200ms ease-out;
 }/*# sourceMappingURL=Experience.module.css.map */
