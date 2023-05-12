@@ -12,6 +12,7 @@
             @media (max-width: $sm){
                 justify-content: center;
                 text-align: center;
+                gap: 2rem;
             }
             display: flex;
             align-items: center;
@@ -21,6 +22,9 @@
         }
 
         .lowerElements{
+            @media (max-width: $sm) (max-width: $md){
+                
+            }
             margin-top: 12rem;
             display: flex;
             flex-wrap: wrap;

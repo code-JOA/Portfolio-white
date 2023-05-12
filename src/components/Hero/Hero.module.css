@@ -15,6 +15,7 @@
   .wrapper .container .upperElements {
     justify-content: center;
     text-align: center;
+    gap: 2rem;
   }
 }
 .wrapper .container .lowerElements {
