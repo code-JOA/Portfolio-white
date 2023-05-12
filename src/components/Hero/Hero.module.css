@@ -24,6 +24,13 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width: 640px), (max-width: 768px) {
+  .wrapper .container .lowerElements {
+    margin-top: 4rem;
+    gap: 2rem;
+    justify-content: center;
+  }
+}
 .wrapper .container .lowerElements .experience {
   display: flex;
   align-items: center;

@@ -22,8 +22,11 @@
         }
 
         .lowerElements{
-            @media (max-width: $sm) (max-width: $md){
-                
+            @media (max-width: $sm),(max-width: $md){
+                margin-top: 4rem;
+                gap: 2rem;
+                justify-content: center;
+
             }
             margin-top: 12rem;
             display: flex;
