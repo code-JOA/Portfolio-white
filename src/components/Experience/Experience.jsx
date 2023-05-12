@@ -7,8 +7,8 @@ const Experience = () => {
       <div className={`paddings yPaddings flexCenter innerWidth ${css.container}`}>
 
 
-        <div className={}></div>
-        <div></div>
+        <div className={css.leftSide}></div>
+        <div className={css.rightSide}></div>
 
 
       </div>
