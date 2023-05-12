@@ -30,9 +30,11 @@ const Hero = () => {
           </motion.span>
         </div>
         {/* image goes here */}
-        <div className={css.person}>
+        <motion.div 
+        variants={fadeIn("Up", "tween", 0.3 , 1)}
+        className={css.person}>
           <img src="./josh6.png" alt="" />
-        </div>
+        </motion.div>
 
         {/* email goes here  */}
         <a className={css.email} href="mailto:josh_billion@gmail.com">
