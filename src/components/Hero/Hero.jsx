@@ -17,8 +17,8 @@ const Hero = () => {
         <div className={css.upperElements}>
             
         <motion.span 
-            variants={fadeIn("right", "tween", 0.2, 1)}          
-            className="primaryText">
+        variants={fadeIn("right", "tween", 0.2, 1)}          
+        className="primaryText">
 
 
             Hey there, <br />I am Joshua
