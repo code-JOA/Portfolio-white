@@ -25,4 +25,5 @@ wrapper .container .leftSide .exp {
 }
 wrapper .container .leftSide .exp:hover {
   cursor: pointer;
+  box-shadow: 0px 21px 13px rgba(0, 0, 0, 0.04);
 }/*# sourceMappingURL=Experience.module.css.map */
