@@ -1,6 +1,7 @@
 import React from 'react'
 import css from './Experience.module.scss'
 
+
 const Experience = () => {
   return (
     <section className={css.wrapper}>
@@ -10,10 +11,11 @@ const Experience = () => {
         <div className={css.leftSide}>
 
             {
+                projectExperience.map
 
             }
         </div>
-        
+
         <div className={css.rightSide}></div>
 
 
