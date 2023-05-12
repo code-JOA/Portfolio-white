@@ -11,4 +11,6 @@ wrapper .container > div {
 }
 wrapper .container .leftSide {
   display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }/*# sourceMappingURL=Experience.module.css.map */
