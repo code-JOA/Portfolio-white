@@ -18,7 +18,11 @@ const Experience = () => {
                             <exp.icon size={30}  color="white" />
                         </div>
 
-                        div
+                        <div>
+                            <span>
+                                </span>
+                                <span></span>
+                        </div>
                 </div>
                 })
 
