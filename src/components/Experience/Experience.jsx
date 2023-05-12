@@ -1,6 +1,6 @@
 import React from 'react'
 import css from './Experience.module.scss'
-import { projectExperience } from './utils/data'
+import { projectExperience } from '../../utils/data'
 
 
 const Experience = () => {
@@ -12,7 +12,8 @@ const Experience = () => {
         <div className={css.leftSide}>
 
             {
-                projectExperience.map
+                projectExperience.map((exp, 1))
+                
 
             }
         </div>
