@@ -74,6 +74,8 @@
             img{
                 @media (max-width: $sm){
                     width: 23rem;
+                    margin-bottom: -5px;
+
                 }
             }
         }
