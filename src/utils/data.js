@@ -23,8 +23,7 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+  "I am willing to assist you in finding a solution and resolving your problem." 
 ];
 
 export const workExp = [
