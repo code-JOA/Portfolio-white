@@ -23,11 +23,14 @@ const Hero = () => {
 
             Hey there, <br />I am Joshua
         </motion.span>
-        <span className="secondaryText">
+
+        <motion.span 
+        variants
+         className="secondaryText">
             I turn design into code
             <br />
             And I love what I do
-        </span>
+        </motion.span>
         </div>
         {/* image goes here */}
         <div className={css.person}>
