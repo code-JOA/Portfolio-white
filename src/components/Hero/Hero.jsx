@@ -6,22 +6,22 @@ import { staggerContainer } from '../../utils/motion';
 const Hero = () => {
   return (
     <section className={`padding ${css.wrapper}`}>
-      <motion.div
-        variants={staggerContainer}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
-        className={`innerWidth ${css.container}`}
-      >
+      <motion.div 
+        variants= {staggerContainer}
+        initial= "hidden"
+        whileInView= "show"
+        viewport= {{once: false, amount: 0.25}}
+        className={`innerWidth ${css.container}`}>
+        
         {/* Upper Elements */}
         <div className={css.upperElements}>
-          <motion.span
-            variants={fadeIn("right", "tween", 0.25, 1)}
-            className="primaryText"
-          >
+            
+        <motion.span 
+            variants={fadeIn("right", "tween", 0.25, 1)}          
+            className="primaryText">
             Hey there, <br />I am Joshua
-          </motion.span>
-          <span className="secondaryText">
+        </motion.span>
+        <span className="secondaryText">
             I turn design into code
             <br />
             And I love what I do
@@ -34,7 +34,7 @@ const Hero = () => {
 
         {/* email goes here  */}
         <a className={css.email} href="mailto:josh_billion@gmail.com">
-          josh_billion@yahoo.com
+            josh_billion@yahoo.com
         </a>
 
         {/* Lower elements */}
