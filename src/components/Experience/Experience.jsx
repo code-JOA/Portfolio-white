@@ -38,7 +38,7 @@ const Experience = () => {
         {/* right */}
         <motion.div variants={textVariant(0.5)} className={css.rightSide}>
           <span className="primaryText">How Can I help? </span>
-          {HowCanIHelp.map((paragraph, i) => (
+          {WhatDoIHelp.map((paragraph, i) => (
             <span className="secondaryText" key={i}>
               {paragraph}
             </span>
