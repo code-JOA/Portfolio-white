@@ -11,7 +11,7 @@ const Experience = () => {
             {/* left Side */}
         <div className={css.leftSide}>
           {projectExperience.map((exp, i) => {
-            return (
+            return 
               <div className={css.exp} key={i}>
                 <div className="flexCenter">
                   <exp.icon size={25} color="white" />
@@ -22,7 +22,7 @@ const Experience = () => {
                   <span>{exp.projects}</span>
                 </div>
               </div>
-            );
+            // )
           })}
         </div>
 
