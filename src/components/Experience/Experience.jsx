@@ -15,8 +15,10 @@ const Experience = () => {
                 projectExperience.map((exp, i)=>{
                     return <div className={css.exp} key={i}>
                         <div className="flexCenter">
-                            exp.icon size
+                            <exp.icon size={30}  color="white" />
                         </div>
+
+                        div
                 </div>
                 })
 
