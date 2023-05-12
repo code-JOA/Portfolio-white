@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
 
         {/* email goes here  */}
-        <span>josh_billion@</span>
+        <a href="" className={css.email}></a>
 
         {/* Lower elements */}
 
