@@ -42,4 +42,10 @@
   background-repeat: no-repeat;
   background-size: 23rem;
   left: 33%;
+}
+.wrapper .container .email {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  color: orange;
 }/*# sourceMappingURL=Hero.module.css.map */
