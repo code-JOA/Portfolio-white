@@ -23,7 +23,8 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "My approach involves utilizing process design to develop digital products, as well as providing support for their business"
+  "I am willing to assist you in finding a solution and solve problems."
+  "My approach involves utilizing process design to develop digital products, as well as providing support for businesses"
 ];
 
 export const workExp = [
