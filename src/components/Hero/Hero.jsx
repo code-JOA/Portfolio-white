@@ -1,7 +1,7 @@
 import React from 'react';
 import css from './Hero.module.scss';
 import { motion } from 'framer-motion';
-import { fadeIn, staggerContainer } from '../../utils/motion';
+import { fadeIn, slideIn, staggerContainer } from '../../utils/motion';
 
 const Hero = () => {
   return (
@@ -34,7 +34,7 @@ const Hero = () => {
         variants={fadeIn("Up", "tween", 0.3 , 1)}
         className={css.person}>
           <motion.img 
-          variants={fadeIn("Down", "tween", 0.3 , 1)}
+          variants={slideIn("Down", "tween", 0.5 , 1)}
           src="./josh6.png" alt="" />
         </motion.div>
 
