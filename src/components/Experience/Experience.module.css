@@ -32,10 +32,4 @@ wrapper .container .leftSide .exp > :nth-child(1) {
   width: 3rem;
   height: 3rem;
   border-radius: 999px;
-}
-wrapper .container .leftSide .exp > :nth-child(2) {
-  padding: 10px;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 999px;
 }/*# sourceMappingURL=Experience.module.css.map */
