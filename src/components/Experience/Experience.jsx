@@ -3,10 +3,10 @@ import { projectExperience, WhatDoIHelp } from "../../utils/data";
 import css from "./Experience.module.scss";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer, textVariant } from "../../utils/motion.js";
-const Experties = () => {
+const Experience = () => {
   return (
     <section className={css.wrapper}>
-      <a className="anchor" id="experties"></a>
+      <a className="anchor" id="experience"></a>
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -60,4 +60,4 @@ const Experties = () => {
   );
 };
 
-export default Experties;
+export default Experience;
