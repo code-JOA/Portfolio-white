@@ -77,5 +77,6 @@
 @media (max-width: 640px) {
   .wrapper .container .email {
     position: relative;
+    display: none;
   }
 }/*# sourceMappingURL=Hero.module.css.map */
