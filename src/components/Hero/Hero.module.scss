@@ -26,7 +26,6 @@
                 margin-top: 4rem;
                 gap: 2rem;
                 justify-content: center;
-
             }
             margin-top: 12rem;
             display: flex;
@@ -55,6 +54,7 @@
             }
         }
         .person{
+            @media
             position: absolute;
             bottom: -2rem;
             margin: auto;
