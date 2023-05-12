@@ -8,4 +8,7 @@ wrapper .container {
 }
 wrapper .container > div {
   flex: 1;
+}
+wrapper .container .leftSide {
+  display: flex;
 }/*# sourceMappingURL=Experience.module.css.map */
