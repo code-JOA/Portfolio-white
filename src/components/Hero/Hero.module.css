@@ -63,6 +63,9 @@
     left: 0;
     background-size: 20rem;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: bottom;
   }
 }
 .wrapper .container .email {
