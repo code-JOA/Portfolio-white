@@ -16,10 +16,13 @@ const Hero = () => {
             And I love what I do
           </span>
         </div>
-
+       {/* image goes here */}
         <div className={css.person}>
             <img src="./josh6.png" alt="" />
         </div>
+
+        {/* email goes here  */}
+        <span>josh_billion@</span>
 
         {/* Lower elements */}
 
