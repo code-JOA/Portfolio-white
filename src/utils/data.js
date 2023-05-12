@@ -23,10 +23,7 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "I am willing to assist you in finding solutions and solving problems."
-  "My approach involves utilizing process design to develop digital products" 
-  "as well as providing support for their business" 
-];
+]
 
 export const workExp = [
   {
