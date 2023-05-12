@@ -21,9 +21,9 @@ const Hero = () => {
           >
             Hey there, <br />I am Joshua
           </motion.span>
-        {/* animation fades in right , delay 1 second  */}
+        {/* animation fades in left ,for 0.4seconds delay 1 second  */}
           <motion.span className="secondaryText" 
-          variants={fadeIn("right", "tween", 0.4, 1)}>
+          variants={fadeIn("left", "tween", 0.4, 1)}>
             I turn design into code
             <br />
             And I love what I do
