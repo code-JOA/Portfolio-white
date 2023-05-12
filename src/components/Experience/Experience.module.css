@@ -5,4 +5,7 @@ wrapper .container {
   align-items: flex-start;
   gap: 2rem;
   flex-wrap: wrap;
+}
+wrapper .container > div {
+  flex: 1;
 }/*# sourceMappingURL=Experience.module.css.map */

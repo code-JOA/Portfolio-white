@@ -7,6 +7,10 @@ wrapper{
         align-items: flex-start;
         gap: 2rem;
         flex-wrap: wrap;
-        
+
+        >div{
+            flex: 1;
+            
+        }
     }
 }
