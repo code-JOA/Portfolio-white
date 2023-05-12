@@ -41,4 +41,22 @@ wrapper .container .leftSide .exp > :nth-child(2) {
 wrapper .container .leftSide .exp > :nth-child(2) > :nth-child(1) {
   font-size: 1.6rem;
   font-weight: bold;
+}
+wrapper .container .rightSide {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+@media (max-width: 640px) {
+  wrapper .container .rightSide {
+    text-align: center;
+  }
+}
+wrapper .container .rightSide .stats {
+  justify-content: flex-start;
+  gap: 4rem;
+}
+wrapper .container .rightSide .stats .stat {
+  flex-direction: column;
+  justify-content: flex-start;
 }/*# sourceMappingURL=Experience.module.css.map */
