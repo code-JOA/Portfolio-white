@@ -1,6 +1,7 @@
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Experience from "./components/Experience/Experience";
+import Companies from "./components/Companies/Companies";
 import css from "./styles/app.module.scss"
 
 const App = () => {
