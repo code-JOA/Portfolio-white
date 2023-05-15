@@ -10,7 +10,7 @@ import {
   textVariant2,
   zoomIn,
 } from "../../utils/motion";
-const Companies = () => {
+const Work = () => {
   return (
     <motion.section
       variants={staggerChildren}
@@ -75,4 +75,4 @@ const Companies = () => {
   );
 };
 
-export default Companies;
+export default Work;
