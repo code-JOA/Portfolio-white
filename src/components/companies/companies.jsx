@@ -1,6 +1,6 @@
 import React from 'react'
 import css from './Companies.module.scss'
-import motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const companies = () => {
   return (
