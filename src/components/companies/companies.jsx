@@ -3,9 +3,9 @@ import css from './companies.module.scss'
 
 const companies = () => {
   return (
-    <section className={`bg-primary ${css.wrapper}`}>
+    <section className={`padding ${css.wrapper}`}>
 
-        
+        div
     </section>
     )
 }
