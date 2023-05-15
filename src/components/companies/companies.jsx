@@ -3,7 +3,10 @@ import css from './companies.module.scss'
 
 const companies = () => {
   return (
-    <section className={`css.wrapper}></section>
+    <section className={`bg-primary ${css.wrapper}`}>
+
+        
+    </section>
     )
 }
 
