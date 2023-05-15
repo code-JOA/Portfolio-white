@@ -5,7 +5,9 @@ const Work = () => {
     <section className={`padding {css.container}`}>
 
 
-        div.{css}
+        <div className={css.experience}>
+            
+        </div>
 
     </section>
   )
