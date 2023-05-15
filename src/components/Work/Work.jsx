@@ -1,6 +1,6 @@
 import React from "react";
 import { workExp } from "../../utils/data";
-import css from "./Companies.module.scss";
+import css from "./Work.module.scss";
 import { motion } from "framer-motion";
 import {
   draw,
