@@ -2,7 +2,7 @@ import React from 'react'
 
 const companies = () => {
   return (
-    section{css.wrapper}
+    <section className={css.wrapper}></section>
     )
 }
 
