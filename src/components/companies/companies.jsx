@@ -11,7 +11,11 @@ const companies = () => {
       viewport={{ once: false, amount: 0.25 }}
       className={`padding ${css.wrapper}`}
     >
-      <div className={css.container}>blabla</div>
+      <div className={css.container}>
+        <span className="primaryText">
+            My Work Experience
+        </span>
+      </div>
     </motion.section>
   );
 }
