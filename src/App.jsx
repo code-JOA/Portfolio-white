@@ -10,7 +10,7 @@ const App = () => {
       <Header />
       <Hero />
       <Experience />
-      {/* <Work /> */}
+      <Work />
     </div>
   );
 };
