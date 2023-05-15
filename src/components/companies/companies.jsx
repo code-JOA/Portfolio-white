@@ -5,7 +5,6 @@ const companies = () => {
   return (
     <section className={`padding ${css.wrapper}`}>
 
-        div
     </section>
     )
 }
