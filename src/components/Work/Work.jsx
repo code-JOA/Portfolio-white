@@ -2,7 +2,10 @@ import React from 'react'
 
 const Work = () => {
   return (
-    <section className={{css.container}>
+    <section className={`padding {css.container}`}>
+
+
+        div.{css}
 
     </section>
   )
