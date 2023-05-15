@@ -2,7 +2,7 @@ import React from 'react'
 import css from './Companies.module.scss'
 import { motion } from 'framer-motion'
 
-const companies = () => {
+const Companies = () => {
   return (
     <motion.section
       variants={staggerChildren}
@@ -20,4 +20,4 @@ const companies = () => {
   );
 }
 
-export default companies
+export default Companies
