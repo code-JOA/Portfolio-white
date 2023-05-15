@@ -9,6 +9,7 @@ const App = () => {
       <Header />
       <Hero />
       <Experience />
+      <Companies />
     </div>
   );
 };
