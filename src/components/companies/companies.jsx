@@ -1,10 +1,12 @@
 import React from 'react'
-import css from './companies.module.scss'
+import css from './Companies.module.scss'
 
 const companies = () => {
   return (
     <section className={`padding ${css.wrapper}`}>
 
+
+        div.{css}
     </section>
     )
 }
