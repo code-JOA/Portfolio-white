@@ -5,4 +5,8 @@
 .wrapper .container .experiences {
   width: 100%;
   flex-direction: column;
+}
+.wrapper .container .experiences .exp {
+  width: 100%;
+  justify-content: space-;
 }/*# sourceMappingURL=Work.module.css.map */
