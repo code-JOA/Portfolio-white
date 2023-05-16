@@ -23,22 +23,19 @@ const Work = () => {
 
           {
             workExp.map((exp, i)=>{
-              return <div className={css.exp} ket={i}>
+              return (
+                <div className={css.exp} ket={i}>
+                  <div className={css.post}>
+                    <h1>{exp.place}</h1>
+                    <p>{exp.tenure}</p>
+                  </div>
 
-                <div className={css.post}>
-
-                  <h1>{exp.place}</h1>
-                  <p>{exp.tenure}</p>
-
+                  <div className={css.role}>
+                    <h1>{exp.role}</h1>
+                    <p>{exp.detail}</p>
+                  </div>
                 </div>
-
-                <div className={css.role}>
-
-                  
-
-                </div>
-
-              </div>;
+              );
             })
 
           }
