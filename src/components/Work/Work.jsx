@@ -34,8 +34,7 @@ const Work = () => {
 
                 <div className={css.role}>
 
-                  <h1>{exp.role}</h1>
-                  <p>{exp.detail}</p>
+                  
 
                 </div>
 
