@@ -36,14 +36,15 @@ const Work = () => {
               </motion.div>
             );
           })}
+{/* <motion.div variants={zoomIn(1, 1)} className={css.progressbar}> */}
 
-        <div className={css.progressBar}>
+        <motion.div variants={} className={css.progressBar}>
           <div className={css.line}></div>
 
             <div><div className={css.circle} style={{background: "#286F6C"}}></div></div>
             <div><div className={css.circle} style={{background: "#F2704E"}}></div></div>
             <div><div className={css.circle} style={{background: "#EEC048"}}></div></div>
-        </div>
+        </motion.div>
       </div>
       </div>
  
