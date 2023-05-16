@@ -38,7 +38,11 @@ const Work = () => {
           })}
         </div>
 
-        <div className={css.progressBar}></div>
+        <div className={css.progressBar}>
+          <div className={css.line}>
+            
+          </div>
+        </div>
       </div>
     </motion.section>
   );
