@@ -61,6 +61,6 @@ const Work = () => {
       </div>
     </motion.section>
   );
-}
+};
 
 export default Work
