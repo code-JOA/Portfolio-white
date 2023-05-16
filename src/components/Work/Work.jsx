@@ -20,8 +20,11 @@ const Work = () => {
 
         <div className={css.experiences}>
 
+          {
+            workExp.map(function)
+          }
 
-          
+
         </div>
       </div>
     </motion.section>
