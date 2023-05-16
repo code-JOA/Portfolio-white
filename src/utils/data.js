@@ -32,7 +32,7 @@ export const workExp = [
     tenure: "Aug 2019 - current",
     role: "Data Scientist/ Dev / UX",
     detail:
-      "Worked on a variety of projects, ie websites, mobile applications. In short, they create the concepts",
+      "Worked on a variety of projects, ie websites, mobile applications and UX/UI designs. Thereby, bringing design concepts to life",
   },
   {
     place: "New Man Services",
