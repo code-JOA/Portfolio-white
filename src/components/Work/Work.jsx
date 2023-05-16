@@ -36,8 +36,6 @@ const Work = () => {
               </motion.div>
             );
           })}
-{/* <motion.div variants={zoomIn(1, 1)} className={css.progressbar}> */}
-{/* <motion.div variants={fadeIn("down", "tween", 2, 1.5)} */}
 
         <motion.div variants={zoomIn(1,1)} className={css.progressBar}>
           <motion.div variants={fadeIn("down", "tween", 2, 1.5)} className={css.line}></motion.div>
