@@ -27,10 +27,12 @@ const Work = () => {
 
                 <div className={css.post}>
 
+                  <h1>{css.place</h1>
+
                 </div>
 
                 <div className={css.role}>
-                  
+
                 </div>
 
               </div>;
