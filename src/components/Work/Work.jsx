@@ -1,7 +1,7 @@
 import React from 'react'
 import css from './Work.module.scss'
 import { motion } from 'framer-motion'
-import { staggerChildren } from '../../utils/motion'
+import { staggerChildren, textVariant2 } from '../../utils/motion'
 import { workExp } from '../../utils/data'
 
 const Work = () => {
@@ -24,7 +24,7 @@ const Work = () => {
           {
             workExp.map((exp, i)=>{
               return (
-                <div className={`flexCenter {css.exp}`} key={i}>
+                <motion.div variants={textVariant2} key className={`flexCenter {css.exp}`} key={i}>
                   <div className={css.post}>
                     <h1>{exp.place}</h1>
                     <p>{exp.tenure}</p>
@@ -34,7 +34,7 @@ const Work = () => {
                     <h1>{exp.role}</h1>
                     <p>{exp.detail}</p>
                   </div>
-                </div>
+                </motion.div>
               );
             })
 
