@@ -37,9 +37,9 @@ export const workExp = [
   {
     place: "MadeinD8r",
     tenure: "Aug 2019 - current",
-    role: "UI/UX Designer",
+    role: "Data Scientist/ Dev / UX",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Worked on a variety of projects, ie websites, mobile applications and UX/UI designs. Thereby, bringing design concepts to life",
   },
   {
     place: "Global Solution",

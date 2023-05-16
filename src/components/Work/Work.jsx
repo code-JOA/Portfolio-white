@@ -28,6 +28,7 @@ const Work = () => {
                 <div className={css.post}>
 
                   <h1>{exp.place}</h1>
+                  <p>{exp.</p>
 
                 </div>
 
