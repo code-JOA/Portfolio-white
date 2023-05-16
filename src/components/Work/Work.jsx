@@ -22,13 +22,14 @@ const Work = () => {
 
           {
             workExp.map((exp, i)=>{
-              return(<div className={css.experience} key={i}>
+              return(
+              <div className={css.experience} key={i}>
               </div>
                 )
             })
           }
 
-          {workExp.map((exp, i) => {
+          {/* {workExp.map((exp, i) => {
             return (
               <motion.div variants={textVariant2} key={i} className={`flexCenter ${css.exp}`}>
                 <div className={css.post}>
@@ -38,7 +39,7 @@ const Work = () => {
                 <div className={css.role}>
                   <h1>{exp.role}</h1>
                   <p>{exp.detail}</p>
-                </div>
+                </div> */}
 
 
         </div>
