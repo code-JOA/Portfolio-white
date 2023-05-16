@@ -4,6 +4,11 @@
     .container{
         flex-direction: column;
         gap: 2rem;
-        
+
+        .experiences{
+            width: 100%;
+            flex-direction: column;
+            
+        }
     }
 }

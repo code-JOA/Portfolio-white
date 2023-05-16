@@ -1,4 +1,8 @@
 .wrapper .container {
   flex-direction: column;
   gap: 2rem;
+}
+.wrapper .container .experiences {
+  width: 100%;
+  flex-direction: column;
 }/*# sourceMappingURL=Work.module.css.map */
