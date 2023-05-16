@@ -21,7 +21,7 @@ const Work = () => {
         <div className={css.experiences}>
 
           {
-            workExp.map(function)
+            workExp.map((exp + i)=>)
           }
 
 
