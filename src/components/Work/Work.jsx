@@ -12,7 +12,7 @@ const Work = () => {
       viewport={{ once: false, amount: 0.25 }}
       className={`paddings {css.container}`}
     >
-      <div className={`{css.experience}`}>
+      <div className={`flexCenter innerWidth ${css.experience}`}>
         <span className="primaryText yPaddings">
           Work Experience
         </span>
