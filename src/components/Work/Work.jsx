@@ -28,11 +28,14 @@ const Work = () => {
                 <div className={css.post}>
 
                   <h1>{exp.place}</h1>
-                  <p>{exp.</p>
+                  <p>{exp.tenure}</p>
 
                 </div>
 
                 <div className={css.role}>
+
+                  <h1>{exp.role}</h1>
+                  <p>{exp.detail}</p>
 
                 </div>
 
