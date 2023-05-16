@@ -21,18 +21,12 @@ const Work = () => {
 
         <div className={css.experiences}>
 
-          {/* {
-            workExp.map((exp, i)=>{
-              return(
-              <div className={css.experience} key={i}>
-              </div>
-                )
-            })
-          } */}
+          {
+            workExp.map()
 
-         
+          }
 
-
+        
         </div>
       </div>
     </motion.section>
