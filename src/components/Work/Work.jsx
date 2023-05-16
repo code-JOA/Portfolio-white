@@ -24,7 +24,7 @@ const Work = () => {
           {
             workExp.map((exp, i)=>{
               return (
-                <div className={css.exp} ket={i}>
+                <div className={`flexCenter {css.exp}`} key={i}>
                   <div className={css.post}>
                     <h1>{exp.place}</h1>
                     <p>{exp.tenure}</p>
