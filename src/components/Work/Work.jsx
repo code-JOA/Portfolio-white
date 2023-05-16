@@ -18,7 +18,11 @@ const Work = () => {
         </span>
 
 
-        div{css.experiences}
+        <div className={css.experiences}>
+
+
+          
+        </div>
       </div>
     </motion.section>
   );
