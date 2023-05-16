@@ -23,7 +23,9 @@ const Work = () => {
 
           {
             workExp.map((exp, i)=>{
-              return ()
+              return <div className={css.exp}>
+                
+              </div>
             })
 
           }
