@@ -11,4 +11,7 @@
   justify-content: space-between;
   line-height: 40px;
   align-items: flex-start;
+}
+.wrapper .container .experiences .exp > div {
+  flex: 1;
 }/*# sourceMappingURL=Work.module.css.map */
