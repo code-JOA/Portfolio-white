@@ -39,26 +39,17 @@ const Work = () => {
             );
           })}
 
-          {/* <motion.div variants={zoomIn(1,1)} className={css.progressBar}>
-          <motion.div variants={fadeIn("down", "tween", 2, 1.5)} className={css.line}></motion.div>
-
-            <div><div className={css.circle} style={{background: "#286F6C"}}></div></div>
-            <div><div className={css.circle} style={{background: "#F2704E"}}></div></div>
-            <div><div className={css.circle} style={{background: "#EEC048"}}></div></div>
-        </motion.div>
-      </div>
-      </div>
- 
-    </motion.section> */}
 
           <motion.div variants={zoomIn(1, 1)} className={css.progressbar}>
             <motion.div variants={fadeIn("down", "tween", 2, 1.5)} className={css.line}></motion.div>
+
           <div><div className={css.circle} style={{ background: "#286F6C" }}></div></div>
             <div><div className={css.circle} style={{ background: "#F2704E" }}></div></div>
             <div><div className={css.circle} style={{ background: "#EEC048" }}></div></div>
           </motion.div>
         </div>
       </div>
+
     </motion.section>
   );
 };
