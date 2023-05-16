@@ -50,10 +50,7 @@ const Work = () => {
     </motion.section> */}
 
           <motion.div variants={zoomIn(1, 1)} className={css.progressbar}>
-            <motion.div
-              variants={fadeIn("down", "tween", 2, 1.5)}
-              className={css.line}
-            ></motion.div>
+            <motion.div variants={fadeIn("down", "tween", 2, 1.5)} className={css.line}></motion.div>
             <div>
               <div
                 className={css.circle}
