@@ -25,7 +25,13 @@ const Work = () => {
             workExp.map((exp, i)=>{
               return <div className={css.exp} ket={i}>
 
-                div.{css.}
+                <div className={css.post}>
+
+                </div>
+
+                <div className={css.role}>
+                  
+                </div>
 
               </div>;
             })
