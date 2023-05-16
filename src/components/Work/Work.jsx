@@ -16,6 +16,9 @@ const Work = () => {
         <span className="primaryText yPaddings">
           Work Experience
         </span>
+
+
+        div{css.experiences}
       </div>
     </motion.section>
   );
