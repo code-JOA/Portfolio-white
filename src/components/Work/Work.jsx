@@ -28,6 +28,18 @@ const Work = () => {
             })
           }
 
+          {workExp.map((exp, i) => {
+            return (
+              <motion.div variants={textVariant2} key={i} className={`flexCenter ${css.exp}`}>
+                <div className={css.post}>
+                  <h1>{exp.place}</h1>
+                  <p>{exp.tenure}</p>
+                </div>
+                <div className={css.role}>
+                  <h1>{exp.role}</h1>
+                  <p>{exp.detail}</p>
+                </div>
+
 
         </div>
       </div>
