@@ -1,8 +1,9 @@
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Experience from "./components/Experience/Experience";
-// import Work from "./components/Work/Work";
+import Work from "./components/Work/Work";
 import css from "./styles/app.module.scss";
+// import { motion } from 'framer-motion'
 
 const App = () => {
   return (
@@ -10,7 +11,7 @@ const App = () => {
       <Header />
       <Hero />
       <Experience />
-      {/* <Work /> */}
+      <Work />
     </div>
   );
 };
