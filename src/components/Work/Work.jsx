@@ -36,7 +36,6 @@ const Work = () => {
               </motion.div>
             );
           })}
-        </div>
 
         <div className={css.progressBar}>
           <div className={css.line}></div>
@@ -46,6 +45,8 @@ const Work = () => {
             <div><div className={css.circle} style={{background: "#EEC048"}}></div></div>
         </div>
       </div>
+      </div>
+ 
     </motion.section>
   );
 }
