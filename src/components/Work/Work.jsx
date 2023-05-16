@@ -19,7 +19,7 @@ const Work = () => {
         </span>
 
 
-        <div className={css.experiences}>
+        <div className={`flexCenter {css.experiences}`}>
 
           {
             workExp.map((exp, i)=>{
