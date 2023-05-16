@@ -5,15 +5,17 @@ import { staggerChildren } from '../../utils/motion'
 
 const Work = () => {
   return (
-    <section
+    <motion.section
       variants={staggerChildren}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
       className={`paddings {css.container}`}
     >
-      <div className={css.experience}>Here is my work</div>
-    </section>
+      <div className={css.experience}>
+        span.primary
+      </div>
+    </motion.section>
   );
 }
 
