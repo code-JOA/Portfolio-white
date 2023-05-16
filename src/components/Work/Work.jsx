@@ -25,7 +25,9 @@ const Work = () => {
             workExp.map((exp, i)=>{
               return <div className={css.exp} ket={i}>
 
-              </div>
+                
+
+              </div>;
             })
 
           }
