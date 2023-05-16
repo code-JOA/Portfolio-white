@@ -24,7 +24,7 @@ const Work = () => {
           {
             workExp.map((exp, i)=>{
               return (
-                <motion.div variants={textVariant2} key={i} className={`flexCenter ${css.exp}`} key={i}>
+                <div  className={`flexCenter ${css.exp}`} key={i}>
                   <div className={css.post}>
                     <h1>{exp.place}</h1>
                     <p>{exp.tenure}</p>
@@ -34,7 +34,7 @@ const Work = () => {
                     <h1>{exp.role}</h1>
                     <p>{exp.detail}</p>
                   </div>
-                </motion.div>
+                </div>
               );
             })
 
