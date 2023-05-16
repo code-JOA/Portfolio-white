@@ -40,8 +40,10 @@ const Work = () => {
 
         <div className={css.progressBar}>
           <div className={css.line}>
-            
+
           </div>
+
+          
         </div>
       </div>
     </motion.section>
