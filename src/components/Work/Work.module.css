@@ -8,5 +8,6 @@
 }
 .wrapper .container .experiences .exp {
   width: 100%;
-  justify-content: space-;
+  justify-content: space-between;
+  line-height: 40px;
 }/*# sourceMappingURL=Work.module.css.map */
