@@ -1,1 +1,4 @@
-/*# sourceMappingURL=Work.module.css.map */
+.wrapper .container {
+  flex-direction: column;
+  gap: 2rem;
+}/*# sourceMappingURL=Work.module.css.map */
