@@ -13,7 +13,9 @@ const Work = () => {
       className={`paddings {css.container}`}
     >
       <div className={css.experience}>
-        span.primary
+        <span className="primaryText yPaddings">
+          Work Experience
+        </span>
       </div>
     </motion.section>
   );
