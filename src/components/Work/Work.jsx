@@ -13,34 +13,29 @@ const Work = () => {
       viewport={{ once: false, amount: 0.25 }}
       className={`paddings {css.container}`}
     >
-      <div className={`flexCenter innerWidth ${css.experience}`}>
-        <span className="primaryText yPaddings">
-          Work Experience
-        </span>
-
+      <div className={`innerWidth flexCenter ${css.experience}`}>
+        <span className="primaryText yPaddings">Work Experience</span>
 
         <div className={`flexCenter ${css.experiences}`}>
+          {workExp.map((exp, i) => {
+            return (
+              <motion.div
+                variants={textVariant2}
+                key={i}
+                className={`flexCenter ${css.exp}`}
+              >
+                <div className={css.post}>
+                  <h1>{exp.place}</h1>
+                  <p>{exp.tenure}</p>
+                </div>
 
-          {
-            workExp.map((exp, i)=>{
-              return (
-                <motion.div variants={textVariant2} key={i} className={`flexCenter ${css.exp}`}>
-                  <div className={css.post}>
-                    <h1>{exp.place}</h1>
-                    <p>{exp.tenure}</p>
-                  </div>
-
-                  <div className={css.role}>
-                    <h1>{exp.role}</h1>
-                    <p>{exp.detail}</p>
-                  </div>
-                </motion.div>
-              );
-            })
-
-          }
-
-        
+                <div className={css.role}>
+                  <h1>{exp.role}</h1>
+                  <p>{exp.detail}</p>
+                </div>
+              </motion.div>
+            );
+          })}
         </div>
       </div>
     </motion.section>
