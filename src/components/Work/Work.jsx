@@ -11,7 +11,7 @@ const Work = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`paddings {css.container}`}
+      className={`paddings ${css.wrapper}`}
     >
       <div className={`innerWidth flexCenter ${css.experience}`}>
         <span className="primaryText yPaddings">Work Experience</span>
