@@ -2,7 +2,7 @@ import React from 'react'
 import css from './Work.module.scss'
 import { motion } from 'framer-motion'
 import { staggerChildren } from '../../utils/motion'
-import workExp from '.'
+import { workExp } from '../../utils/data'
 
 const Work = () => {
   return (
