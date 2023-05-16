@@ -42,4 +42,8 @@
   flex: 1;
   padding-top: 0.8rem;
   z-index: 2;
+}
+.wrapper .container .experiences .progressbar > div .circle {
+  border-radius: 50%;
+  background: black;
 }/*# sourceMappingURL=Work.module.css.map */
