@@ -20,7 +20,7 @@ const Portfolio = () => {
           className={`flexCenter ${css.heading}`}
         >
           <div>
-            <span className="primaryText yPaddings">My Latest Project</span>
+            <span className="primaryText">My Latest Project</span>
             <p style={{ marginTop: "10px" }}>
               Perfect solution for digital products
             </p>
