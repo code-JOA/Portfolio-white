@@ -28,7 +28,7 @@ const People = () => {
         className={`yPaddings innerWidth ${css.container}`}
       >
         <div className={`flexCenter ${css.heading}`}>
-          <span className="primaryText">People talk about us</span>
+          <span className="primaryText">Testimonials</span>
           <p style={{ marginTop: "2rem" }}>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis.
           </p>
