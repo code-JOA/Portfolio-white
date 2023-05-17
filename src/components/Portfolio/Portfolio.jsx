@@ -15,11 +15,12 @@ const Portfolio = () => {
       <a className="anchor" id="portfolio"></a>
 
       <div className={`innerWidth flexCenter ${css.container}`}>
-
-        <motion.div variants={textVariant(.4)}
-          className={`flexCenter ${css.heading}`}>
+        <motion.div
+          variants={textVariant(0.4)}
+          className={`innerWidth flexCenter ${css.heading}`}
+        >
           <div>
-            <span className="primaryText">My Latest Project</span>
+            <span className="primaryText yPaddings">My Latest Project</span>
             <p style={{ marginTop: "10px" }}>
               Perfect solution for digital products
             </p>
