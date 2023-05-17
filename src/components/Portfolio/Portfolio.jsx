@@ -7,7 +7,7 @@ const Portfolio = () => {
       <div className={`innerWidth flexCenter ${css.container}`}>
         <div className={css.heading}>
           <div>
-            <span>
+            <span className="primaryText">
                 My Latest Project
             </span>
             <p>
