@@ -22,6 +22,12 @@ const People = () => {
           </p>
           <p>He assisted me with all my python assignments too.</p>
         </div>
+
+
+        {/* carousel */}
+        <div className={css.comments}>
+            
+        </div>
       </div>
     </motion.section>
   );
