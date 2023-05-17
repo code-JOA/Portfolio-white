@@ -1,6 +1,6 @@
 import React from 'react'
 import css from './Portfolio.module.scss'
-import { motion } from 
+import { motion } from 'framer-motion'
 
 const Portfolio = () => {
   return (
