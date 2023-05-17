@@ -1,6 +1,7 @@
 import React from 'react'
 import css from './People.module.scss'
 import { motion } from 'framer-motion'
+import { staggerChildren } from '../../utils/motion'
 
 const People = () => {
   return (
