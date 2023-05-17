@@ -1,7 +1,7 @@
 import React from 'react'
 import css from './Portfolio.module.scss'
 
-const Portfolio.module = () => {
+const Portfolio = () => {
   return (
     <section className={`paddings ${css.wrapper}`}>
 
@@ -13,4 +13,4 @@ const Portfolio.module = () => {
       )
 }
 
-export default Portfolio.module
+export default Portfolio
