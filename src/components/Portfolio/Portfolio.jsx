@@ -15,7 +15,9 @@ const Portfolio = () => {
             </p>
           </div>
 
-          
+          <span className="secondaryText">
+            Explore More
+          </span>
         </div>
       </div>
     </section>
