@@ -14,7 +14,7 @@ const People = () => {
     >
       <div className={`innerWidth flexCenter ${css.container}`}>
         <div className={`flexCenter ${css.heading}`}>
-          <span>
+          <span className="primaryText">
             Testimonials
             <p>
 
