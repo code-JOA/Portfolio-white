@@ -7,8 +7,12 @@ const Portfolio = () => {
       <div className={`innerWidth flexCenter ${css.container}`}>
         <div className={css.heading}>
           <div>
-            <span></span>
-            <p></p> 
+            <span>
+
+            </span>
+            <p>
+                
+            </p>
           </div>
         </div>
       </div>
