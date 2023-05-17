@@ -1,10 +1,16 @@
-import React from 'react'
-import css from './People.module.scss'
-import { motion } from 'framer-motion'
-import { staggerChildren } from '../../utils/motion'
-import Slider from 'react-slick'
+// 
 
-
+import React from "react";
+import { comments, sliderSettings } from "../../utils/data";
+import css from "./People.module.scss";
+import Slider from "react-slick";
+import { motion } from "framer-motion";
+import {
+  footerVariants,
+  staggerChildren,
+  textVariant,
+  textVariant2,
+} from "../../utils/motion";
 const People = () => {
   return (
     <motion.section
@@ -12,37 +18,46 @@ const People = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
+      section
       className={`paddings ${css.wrapper}`}
     >
-      <div className={`yPaddings innerWidth ${css.container}`}>
+      <a className="anchor" id="people"></a>
+
+      <motion.div
+        variants={footerVariants}
+        className={`yPaddings innerWidth ${css.container}`}
+      >
         <div className={`flexCenter ${css.heading}`}>
-          <span className="primaryText">Testimonials</span>
-
-          <p style={{ marginTop: '2rem'}}>
-            I contacted Josh on LinkedIn and he helped me write my masters
-            thesis.
+          <span className="primaryText">People talk about us</span>
+          <p style={{ marginTop: "2rem" }}>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis.
           </p>
-          <p>He assisted me with all my python assignments too.</p>
+          <p>
+            praesentium cum? Voluptatem, dolorum. Sint aspernatur laudantium
+          </p>
         </div>
 
-
-        {/* carousel */}
-        <div className={css.comments}>
-            <Slider {...sliderSettings} className={css.slider}>
-                {
-                    comments.map((comments, i)=>{
-                        return (
-                            <div className={css.comment}>
-
-                            </div>
-                        )
-                    })
-                }
-            </Slider>
+        <div className={`yPaddings ${css.comments}`}>
+          {/* to use slider , we have to inlcude css in index.html head */}
+          <Slider {...sliderSettings} className={css.slider}>
+            {comments.map((comment, i) => {
+              return (
+                <div className={`flexCenter ${css.comment}`}>
+                  <img src={comment.img} alt="" />
+                  <p>{comment.comment}</p>
+                  <div className={css.line}></div>
+                  <div className={css.bio}>
+                    <span>{comment.name}</span>
+                    <span>{comment.post}</span>
+                  </div>
+                </div>
+              );
+            })}
+          </Slider>
         </div>
-      </div>
+      </motion.div>
     </motion.section>
   );
-}
+};
 
-export default People
+export default People;
