@@ -2,6 +2,8 @@ import React from 'react'
 import css from './People.module.scss'
 import { motion } from 'framer-motion'
 import { staggerChildren } from '../../utils/motion'
+import Slider from 'react-slick'
+
 
 const People = () => {
   return (
@@ -30,7 +32,9 @@ const People = () => {
                 {
                     comments.map((comments, i)=>{
                         return (
-                            div.{css.}
+                            <div className={css.comment}>
+
+                            </div>
                         )
                     })
                 }
