@@ -1,5 +1,6 @@
 import React from 'react'
 import css from './Portfolio.module.scss'
+import { motion } from 
 
 const Portfolio = () => {
   return (
@@ -21,7 +22,9 @@ const Portfolio = () => {
         </div>
 
         <div className={css.showCase}>
-            
+            <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./showCase1.png" alt="project" />
+            <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./showCase2.png" alt="project" />
+            <motion.img variants={fadeIn("up", "tween", .9, .6)} src="./showCase3.png" alt="project" />
         </div>
       </div>
     </section>
