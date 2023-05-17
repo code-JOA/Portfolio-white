@@ -4,4 +4,10 @@
 }
 .wrapper .container {
   flex-direction: column;
+  gap: 2rem;
+}
+.wrapper .container .heading {
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
 }/*# sourceMappingURL=Portfolio.module.css.map */

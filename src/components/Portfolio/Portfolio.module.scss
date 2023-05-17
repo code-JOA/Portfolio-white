@@ -6,6 +6,13 @@
 
     .container{
         flex-direction: column;
+        gap: 2rem;
+
+        .heading{
+            width: 100%;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
 
     }
 }
