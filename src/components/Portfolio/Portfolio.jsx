@@ -2,7 +2,7 @@ import React from 'react'
 
 const Portfolio.module = () => {
   return (
-    <section className={css.wrapper}>
+    <section className={`paddings ${css.wrapper}`}>
 
         <div className={css.exp}>
 
