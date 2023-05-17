@@ -4,7 +4,9 @@ const People = () => {
   return (
     <section className={css.wrapper}>
 
-        
+        <div className={css.container}>
+            
+        </div>
     </section>
     )
 }
