@@ -12,6 +12,11 @@
             width: 100%;
             justify-content: space-between;
             align-items: flex-end;
+            flex-wrap: wrap;
+
+            >:nth-child(2){
+                
+            }
         }
 
     }
