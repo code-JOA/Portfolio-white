@@ -3,11 +3,9 @@
 .wrapper{
     background: white;
     overflow: hidden;
-
     .container{
         flex-direction: column;
         gap: 2rem;
-
         .heading{
             width: 100%;
             justify-content: space-between;
