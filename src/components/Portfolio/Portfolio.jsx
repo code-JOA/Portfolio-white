@@ -17,7 +17,7 @@ const Portfolio = () => {
       <div className={`innerWidth flexCenter ${css.container}`}>
         <motion.div
           variants={textVariant(0.4)}
-          className={`innerWidth flexCenter ${css.heading}`}
+          className={`flexCenter ${css.heading}`}
         >
           <div>
             <span className="primaryText yPaddings">My Latest Project</span>
