@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <section className={`paddings ${css.wrapper}`}>
       <div className={`innerWidth flexCenter ${css.container}`}>
-        <div className={css.heading}>
+        <div className={`flexCenter ${css.heading}`}>
           <div>
             <span className="primaryText">
                 My Latest Project
