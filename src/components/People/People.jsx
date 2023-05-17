@@ -26,7 +26,10 @@ const People = () => {
 
         {/* carousel */}
         <div className={css.comments}>
-            
+            <slider> 
+                          <Slider {...sliderSettings} className={css.slider}>
+
+            </slider>
         </div>
       </div>
     </motion.section>
