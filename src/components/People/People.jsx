@@ -13,7 +13,13 @@ const People = () => {
       className={`paddings ${css.wrapper}`}
     >
       <div className={`ypaddings innerWidth ${css.container}`}>
-        Testimonials
+
+        <div className={css.heading}>
+            <span>
+
+                p
+            </span>
+        </div>
       </div>
     </motion.section>
   );
