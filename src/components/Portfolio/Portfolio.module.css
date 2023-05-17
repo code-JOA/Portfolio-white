@@ -1,3 +1,7 @@
 .wrapper {
   background: white;
+  overflow: hidden;
+}
+.wrapper .container {
+  flex-direction: column;
 }/*# sourceMappingURL=Portfolio.module.css.map */
