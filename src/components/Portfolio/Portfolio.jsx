@@ -1,19 +1,21 @@
 import React from 'react'
 import css from './Portfolio.module.scss'
 import { motion } from 'framer-motion'
-import { fadeIn, staggerChildren } from '../../utils/motion'
+import { fadeIn, staggerChildren , textVariant } from '../../utils/motion'
 
 const Portfolio = () => {
   return (
     <motion.section
-        variants={staggerChildren}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
-        className={`paddings ${css.wrapper}`}
+      variants={staggerChildren}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className={`paddings ${css.wrapper}`}
     >
       <div className={`innerWidth flexCenter ${css.container}`}>
-        <div className={`flexCenter ${css.heading}`}>
+        <motion.div
+          variants={textVariant(0.4)} className={`flexCenter ${css.heading}`}
+        >
           <div>
             <span className="primaryText">My Latest Project</span>
             <p style={{ marginTop: "10px" }}>
@@ -22,7 +24,7 @@ const Portfolio = () => {
           </div>
 
           <span className="secondaryText">Explore More</span>
-        </div>
+        </motion.div>
 
         <div className={css.showCase}>
           <motion.img
