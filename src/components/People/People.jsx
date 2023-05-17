@@ -1,5 +1,5 @@
 import React from 'react'
-import css from ''
+import css from './People.module.scss'
 
 const People = () => {
   return (
