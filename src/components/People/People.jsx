@@ -16,11 +16,11 @@ const People = () => {
         <div className={`flexCenter ${css.heading}`}>
           <span className="primaryText">Testimonials</span>
 
-          <p>
+          <p style={{ marginTop: '2rem'}}>
             I contacted Josh on LinkedIn and he helped me write my masters
             thesis.
           </p>
-          <p></p>
+          <p>He assisted me with all my python assignments too.</p>
         </div>
       </div>
     </motion.section>
