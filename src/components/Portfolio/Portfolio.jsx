@@ -5,9 +5,12 @@ const Portfolio = () => {
   return (
     <section className={`paddings ${css.wrapper}`}>
       <div className={`innerWidth flexCenter ${css.container}`}>
-
-        
-        <div className={css.heading}>Portfolio Section</div>
+        <div className={css.heading}>
+          <div>
+            <span></span>
+            <p></p> 
+          </div>
+        </div>
       </div>
     </section>
   );
