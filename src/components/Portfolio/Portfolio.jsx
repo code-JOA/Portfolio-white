@@ -19,6 +19,10 @@ const Portfolio = () => {
             Explore More
           </span>
         </div>
+
+        <div className={css.showCase}>
+            
+        </div>
       </div>
     </section>
   );
