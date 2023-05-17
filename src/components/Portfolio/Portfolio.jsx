@@ -6,6 +6,7 @@ const Portfolio.module = () => {
     <section className={`paddings ${css.wrapper}`}>
 
         <div className={css.container}>
+            Portfolio Section
 
         </div>
     </section>
