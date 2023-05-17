@@ -10,7 +10,7 @@ const Portfolio = () => {
             <span className="primaryText">
                 My Latest Project
             </span>
-            <p>
+            <p style={{marginTop: '10px'}}>
                 Perfect solution for digital products
             </p>
           </div>
