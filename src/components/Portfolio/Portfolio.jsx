@@ -1,7 +1,7 @@
 import React from 'react'
 import css from './Portfolio.module.scss'
 import { motion } from 'framer-motion'
-import { fadeIn } from '../../utils/motion'
+import { fadeIn, staggerChildren } from '../../utils/motion'
 
 const Portfolio = () => {
   return (
