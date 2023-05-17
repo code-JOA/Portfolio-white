@@ -13,12 +13,11 @@ const People = () => {
       className={`paddings ${css.wrapper}`}
     >
       <div className={`ypaddings innerWidth ${css.container}`}>
-
-        <div className={css.heading}>
-            <span>
-
-                p
-            </span>
+        <div className={`flexCenter ${css.heading}`}>
+          <span>
+            Testimonials
+            <p></p>
+          </span>
         </div>
       </div>
     </motion.section>
