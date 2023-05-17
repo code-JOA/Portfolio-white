@@ -5,7 +5,9 @@ import { fadeIn } from '../../utils/motion'
 
 const Portfolio = () => {
   return (
-    <section className={`paddings ${css.wrapper}`}>
+    <motion.section
+    
+    className={`paddings ${css.wrapper}`}>
       <div className={`innerWidth flexCenter ${css.container}`}>
         <div className={`flexCenter ${css.heading}`}>
           <div>
@@ -28,7 +30,7 @@ const Portfolio = () => {
             <motion.img variants={fadeIn("up", "tween", .9, .6)} src="./showCase3.png" alt="project" />
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 
