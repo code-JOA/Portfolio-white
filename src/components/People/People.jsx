@@ -17,7 +17,7 @@ const People = () => {
           <span className="primaryText">
             Testimonials
             <p>
-
+                I contacted Josh on LinkedIn and he helped me write my masters thesis.
             </p>
           </span>
         </div>
