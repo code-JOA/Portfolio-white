@@ -28,7 +28,11 @@ const People = () => {
         <div className={css.comments}>
             <Slider {...sliderSettings} className={css.slider}>
                 {
-                    comments.map
+                    comments.map((comments, i)=>{
+                        return (
+                            div.{css.}
+                        )
+                    })
                 }
             </Slider>
         </div>
