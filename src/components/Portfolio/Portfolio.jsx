@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <section className={`paddings ${css.wrapper}`}>
 
-        <div className={css.container}>
+        <div className={`innerWidth flexCenter ${css.container}`}>
             Portfolio Section
 
         </div>
