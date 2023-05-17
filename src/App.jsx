@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero";
 import Experience from "./components/Experience/Experience";
 import Work from "./components/Work/Work";
 import Portfolio from "./components/Portfolio/Portfolio";
+
 import css from "./styles/app.module.scss";
 // import { motion } from 'framer-motion'
 
@@ -14,6 +15,7 @@ const App = () => {
       <Experience />
       <Work />
       <Portfolio />
+      <People />
     </div>
   );
 };

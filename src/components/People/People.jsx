@@ -5,7 +5,7 @@ const People = () => {
     <section className={css.wrapper}>
 
         <div className={css.container}>
-            
+            Testimonials
         </div>
     </section>
     )
