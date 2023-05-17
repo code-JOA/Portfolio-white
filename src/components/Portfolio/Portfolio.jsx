@@ -1,8 +1,15 @@
-import React from 'react'
-import css from './Portfolio.module.scss'
-import { motion } from 'framer-motion'
-import { fadeIn, staggerChildren , textVariant, textVariant2 } from '../../utils/motion'
+// 
 
+
+import React from "react";
+import { motion } from "framer-motion";
+import css from "./Portfolio.module.scss";
+import {
+  fadeIn,
+  staggerChildren,
+  textVariant,
+  textVariant2,
+} from "../../utils/motion";
 const Portfolio = () => {
   return (
     <motion.section
@@ -20,16 +27,15 @@ const Portfolio = () => {
           className={`flexCenter ${css.heading}`}
         >
           <div>
-            <span className="primaryText">My Latest Project</span>
+            <span className="primaryText">My Latest Works</span>
             <p style={{ marginTop: "10px" }}>
-              Perfect solution for digital products
+              Perfect solution for digital experience
             </p>
           </div>
-
-          <span className="secondaryText">Explore More</span>
+          <span className="secondaryText">Explore More Works</span>
         </motion.div>
 
-        <div className={css.showCase}>
+        <div className={`flexCenter ${css.showCase}`}>
           <motion.img
             variants={fadeIn("up", "tween", 0.5, 0.6)}
             src="./showCase1.png"
@@ -49,6 +55,6 @@ const Portfolio = () => {
       </div>
     </motion.section>
   );
-}
+};
 
-export default Portfolio
+export default Portfolio;
