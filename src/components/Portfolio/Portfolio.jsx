@@ -8,10 +8,10 @@ const Portfolio = () => {
         <div className={css.heading}>
           <div>
             <span>
-
+                My Latest Project
             </span>
             <p>
-                
+                Perfect solution for digital products
             </p>
           </div>
         </div>
