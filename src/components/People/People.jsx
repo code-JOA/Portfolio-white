@@ -5,7 +5,7 @@ const People = () => {
   return (
     <section className={`paddings ${css.wrapper}`}>
 
-        <div className={css.container}>
+        <div className={`ypaddings innerWidth ${css.container}`}>
             Testimonials
         </div>
     </section>
