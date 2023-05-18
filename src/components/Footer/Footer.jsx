@@ -33,7 +33,12 @@ const Footer = () => {
                 <span className="secondaryText">
                     Information
                 </span>
+
+                <p>484 Kings Road, London</p>
             </div>
+            <ul>
+                
+            </ul>
         </div>
       </motion.div>
     </motion.section>
