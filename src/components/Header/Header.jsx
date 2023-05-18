@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import css from "./Header.module.scss";
 import { BiPhoneCall, BiMenuAltRight } from "react-icons/bi";
 import { motion } from "framer-motion";
@@ -8,6 +8,9 @@ import useHeaderShadow from '../../hooks/useHeaderShadow';
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const headerShadow = useHeaderShadow();
+
+
+  useOutsideAlerter(header)
 
   return (
     <motion.div
