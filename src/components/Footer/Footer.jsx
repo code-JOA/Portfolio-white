@@ -3,7 +3,12 @@ import css from './Footer.module.scss'
 
 const Footer = () => {
   return (
-    section
+    <section className={css.wrapper}>
+
+        <div className={css.container}>
+            
+        </div>
+    </section>
     )
 }
 
