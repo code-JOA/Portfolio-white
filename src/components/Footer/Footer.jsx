@@ -6,6 +6,7 @@ const Footer = () => {
     <section className={css.wrapper}>
 
         <div className={css.container}>
+
             
         </div>
     </section>
