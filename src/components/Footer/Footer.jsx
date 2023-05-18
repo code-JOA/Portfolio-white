@@ -31,7 +31,7 @@ const Footer = () => {
             <div className={css.info}>
 
                 <span className="secondaryText">
-                    Information
+                    Contact me
                 </span>
 
                 <p>484 Kings Road, London</p>
