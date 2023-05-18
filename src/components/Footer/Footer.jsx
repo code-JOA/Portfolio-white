@@ -1,11 +1,16 @@
 import React from 'react';
 import css from './Footer.module.scss';
 import { footerVariants, staggerChildren } from '../../utils/motion';
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
 
 const Footer = () => {
   return (
-    <section className={css.wrapper}>
+    <motion.section
+    vairiants={staggerChildren}
+    initial="hidden"
+    whileInView="show"
+    
+    className={css.wrapper}>
       <div className={css.container}>
         <div className={css.left}>
           <span className="primaryText">
@@ -28,7 +33,7 @@ const Footer = () => {
             </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 
