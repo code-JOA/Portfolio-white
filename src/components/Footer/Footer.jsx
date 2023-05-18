@@ -10,8 +10,8 @@ const Footer = () => {
     initial="hidden"
     whileInView="show"
     viewport={{ once: false, amount: 0.25 }}
-    
-    className={css.wrapper}>
+    className={`paddings ${css.wrapper}}>
+
       <div className={css.container}>
         <div className={css.left}>
           <span className="primaryText">
