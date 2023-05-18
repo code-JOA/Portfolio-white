@@ -30,7 +30,7 @@ const People = () => {
         <div className={`flexCenter ${css.heading}`}>
           <span className="primaryText">Testimonials</span>
           <p style={{ marginTop: "2rem" }}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis.
+            I have worked on diffren
           </p>
           <p>
             praesentium cum? Voluptatem, dolorum. Sint aspernatur laudantium
