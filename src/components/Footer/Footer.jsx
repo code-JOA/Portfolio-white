@@ -1,6 +1,6 @@
 import React from 'react';
+import { footerVariants, staggerChildren } from "../../utils/motion";
 import css from './Footer.module.scss';
-import { footerVariants, staggerChildren } from '../../utils/motion';
 import { motion } from 'framer-motion';
 
 const Footer = () => {
@@ -27,9 +27,7 @@ const Footer = () => {
         </div>
 
         <div className={css.right}>
-
             <div className={css.info}>
-
                 <span className="secondaryText">
                     Contact Me
                 </span>
