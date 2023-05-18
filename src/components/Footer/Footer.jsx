@@ -16,7 +16,10 @@ const Footer = () => {
           </span>
         </div>
 
-        <div className={css.right}></div>
+        <div className={css.right}>
+
+            div
+        </div>
       </div>
     </section>
   );
