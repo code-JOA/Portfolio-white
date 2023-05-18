@@ -7,7 +7,13 @@ const Footer = () => {
 
         <div className={css.container}>
 
-            
+            <div className={css.left}>
+
+            </div>
+
+            <div className={css.right}>
+                
+            </div>
         </div>
     </section>
     )
