@@ -10,6 +10,10 @@ const Footer = () => {
             <div className={css.left}>
 
                 <span className="primaryText">
+                    Let's Build Together
+                </span>
+
+                <span className="primaryText">
                     Feel Free <a href="@mailto:joshbillion1@gmail.com" >Say Hello </a>
 
                 </span>
