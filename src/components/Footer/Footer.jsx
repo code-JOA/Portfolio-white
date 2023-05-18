@@ -18,7 +18,12 @@ const Footer = () => {
 
         <div className={css.right}>
 
-            div
+            <div className={css.info}>
+
+                <span className="secondaryText">
+                    Information
+                </span>
+            </div>
         </div>
       </div>
     </section>
