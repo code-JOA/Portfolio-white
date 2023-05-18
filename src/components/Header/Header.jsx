@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import css from "./Header.module.scss";
 import { BiPhoneCall, BiMenuAltRight } from "react-icons/bi";
 import { motion } from "framer-motion";
@@ -9,7 +9,7 @@ import useOutsideAlerter from '../../hooks/useOutsideAlerter';
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const headerShadow = useHeaderShadow();
-  const menuRef = useRef(null)
+  const menuRef = useRef(null);
 
 
   useOutsideAlerter({
