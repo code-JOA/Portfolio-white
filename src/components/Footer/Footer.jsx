@@ -10,11 +10,13 @@ const Footer = () => {
     initial="hidden"
     whileInView="show"
     viewport={{ once: false, amount: 0.25 }}
-    className={`paddings ${css.wrapper}}>
+    className={`paddings ${css.wrapper}`}>
 
-      <div className={css.container}>
+        <motion.div
+        variants={footerVariants}
+        className={css.container}>
         <div className={css.left}>
-          <span className="primaryText">
+            <span className="primaryText">
             Let's Build Something <br />
             Awesome Together
           </span>
@@ -33,7 +35,7 @@ const Footer = () => {
                 </span>
             </div>
         </div>
-      </div>
+      </motion.div>
     </motion.section>
   );
 }
