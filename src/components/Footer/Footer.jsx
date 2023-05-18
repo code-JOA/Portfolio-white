@@ -37,7 +37,10 @@ const Footer = () => {
                 <p>484 Kings Road, London</p>
             </div>
             <ul>
-                
+                <li>Services</li>
+                <li>Works</li>
+                <li>Notes</li>
+                <li>Experience</li>
             </ul>
         </div>
       </motion.div>

@@ -1,1 +1,22 @@
-/*# sourceMappingURL=Footer.module.css.map */
+.wrapper {
+  background: white;
+}
+.wrapper .container {
+  gap: 2rem;
+}
+@media (max-width: 640px) {
+  .wrapper .container {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+}
+.wrapper .container .left {
+  flex: 3;
+}
+.wrapper .container .left > * {
+  display: block;
+}
+.wrapper .container .left > :nth-child(2) {
+  margin-top: 3rem;
+}/*# sourceMappingURL=Footer.module.css.map */
