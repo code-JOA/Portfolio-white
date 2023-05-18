@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const Footer = () => {
   return (
     <motion.section
-    vairiants={staggerChildren}
+    variants={staggerChildren}
     initial="hidden"
     whileInView="show"
     viewport={{ once: false, amount: 0.25 }}
@@ -31,7 +31,7 @@ const Footer = () => {
             <div className={css.info}>
 
                 <span className="secondaryText">
-                    Contact
+                    Contact Me
                 </span>
 
                 <p>484 Kings Road, London</p>
