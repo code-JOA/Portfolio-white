@@ -28,13 +28,10 @@ const Footer = () => {
 
         <div className={css.right}>
             <div className={css.info}>
-                <span className="secondaryText">
-                    Contact Me
-                </span>
-
+                <span className="secondaryText">Contact Me</span>
                 <p>484 Kings Road, London</p>
             </div>
-            <ul>
+            <ul className={css.menu}>
                 <li>Services</li>
                 <li>Works</li>
                 <li>Notes</li>
