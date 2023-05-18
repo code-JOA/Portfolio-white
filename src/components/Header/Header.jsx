@@ -29,17 +29,13 @@ const Header = () => {
       <div className={`innerWidth ${css.container} flexCenter`}>
         <div className={css.name}>joshua.io</div>
 
+  
         <ul
           className={`flexCenter ${css.menu}`}
           ref={menuRef}
           style={getMenuStyles(menuOpened)}
         ></ul>
 
-        <ul
-          className={`flexCenter ${css.menu}`}
-          ref={menuRef}
-          style={getMenuStyles(menuOpened)}
-        >
           <li>
             <a href="#experience">Services</a>
           </li>
@@ -56,7 +52,6 @@ const Header = () => {
             <p> +44 746 080 8996</p>
             <BiPhoneCall size={"40px"} />
           </li>
-        </ul>
         {/* For only medium and small screens */}
         <div
           className={css.menuIcon}
