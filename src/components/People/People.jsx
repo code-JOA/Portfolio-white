@@ -33,7 +33,7 @@ const People = () => {
             I have worked on different projects and assisted clients to achieve their goals.
           </p>
           <p>
-            praesentium cum? Voluptatem, dolorum. Sint aspernatur laudantium
+            Below are a few reviews from satistified clients
           </p>
         </div>
 
