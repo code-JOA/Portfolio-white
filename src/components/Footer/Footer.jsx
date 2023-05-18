@@ -9,10 +9,14 @@ const Footer = () => {
 
             <div className={css.left}>
 
+                <span className="primaryText">
+                    
+
+                </span>
             </div>
 
             <div className={css.right}>
-                
+
             </div>
         </div>
     </section>
