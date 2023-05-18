@@ -15,6 +15,7 @@ const Work = () => {
       viewport={{ once: false, amount: 0.25 }}
       className={`paddings ${css.wrapper}`}
     >
+      <a className="anchor" id="work"></a>
       <div className={`innerWidth flexCenter ${css.container}`}>
         <span className="primaryText yPaddings">Work Experience</span>
 
@@ -39,17 +40,33 @@ const Work = () => {
             );
           })}
 
+          <motion.div variants={zoomIn(1, 1)} className={css.progressbar}>
+            <motion.div
+              variants={fadeIn("down", "tween", 2, 1.5)}
+              className={css.line}
+            ></motion.div>
 
-            <motion.div variants={zoomIn(1, 1)} className={css.progressbar}>
-            <motion.div variants={fadeIn("down", "tween", 2, 1.5)} className={css.line}></motion.div>
-
-            <div><div className={css.circle} style={{ background: "#286F6C" }}></div></div>
-            <div><div className={css.circle} style={{ background: "#F2704E" }}></div></div>
-            <div><div className={css.circle} style={{ background: "#EEC048" }}></div></div>
+            <div>
+              <div
+                className={css.circle}
+                style={{ background: "#286F6C" }}
+              ></div>
+            </div>
+            <div>
+              <div
+                className={css.circle}
+                style={{ background: "#F2704E" }}
+              ></div>
+            </div>
+            <div>
+              <div
+                className={css.circle}
+                style={{ background: "#EEC048" }}
+              ></div>
+            </div>
           </motion.div>
         </div>
       </div>
-
     </motion.section>
   );
 };
