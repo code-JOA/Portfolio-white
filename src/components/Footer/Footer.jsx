@@ -9,6 +9,7 @@ const Footer = () => {
     vairiants={staggerChildren}
     initial="hidden"
     whileInView="show"
+    viewport={{ once: false, amount: 0.25 }}
     
     className={css.wrapper}>
       <div className={css.container}>
