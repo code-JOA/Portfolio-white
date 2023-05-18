@@ -27,10 +27,10 @@
 .wrapper .container .right {
   flex: 1;
 }
-.wrapper .container .right info {
+.wrapper .container .right .info {
   margin-bottom: 1rem;
 }
-.wrapper .container .right info > * {
+.wrapper .container .right .info > * {
   display: block;
 }
 .wrapper .container .right .menu {
