@@ -14,7 +14,7 @@ const Footer = () => {
 
         <motion.div
         variants={footerVariants}
-        className={css.container}>
+        className={`innerWidth yPaddings flexCenter ${css.container}`}>
         <div className={css.left}>
             <span className="primaryText">
             Let's Build Something <br />
