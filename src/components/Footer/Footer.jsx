@@ -10,7 +10,7 @@ const Footer = () => {
             <div className={css.left}>
 
                 <span className="primaryText">
-                    Say hello '@mailtojosh_billion@gmail.com'>joshbillion1@gmail.com
+                    Say hello <a href="" '@mailtojoshbillion1@gmail.com'> />
 
                 </span>
             </div>
