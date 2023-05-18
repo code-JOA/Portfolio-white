@@ -12,12 +12,10 @@ const Header = () => {
   const menuRef = useRef()
 
 
-  useOutsideAlerter(
-    {
+  useOutsideAlerter({
     menuRef,
-    setMenuOpened
-  }
-  )
+    setMenuOpened,
+  });
 
   return (
     <motion.div
