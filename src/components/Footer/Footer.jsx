@@ -1,6 +1,7 @@
-import React from 'react'
-import css from './Footer.module.scss'
-imp
+import React from 'react';
+import css from './Footer.module.scss';
+import { footerVariants, staggerChildren } from '../../utils/motion';
+import { motion } from 'framer-motion'
 
 const Footer = () => {
   return (
