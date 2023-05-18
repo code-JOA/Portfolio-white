@@ -9,7 +9,7 @@ import useOutsideAlerter from '../../hooks/useOutsideAlerter';
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const headerShadow = useHeaderShadow();
-  const menuRef = useRef()
+  const menuRef = useRef(null)
 
 
   useOutsideAlerter({
