@@ -29,12 +29,17 @@ const Header = () => {
       <div className={`innerWidth ${css.container} flexCenter`}>
         <div className={css.name}>joshua.io</div>
 
-  
         <ul
           className={`flexCenter ${css.menu}`}
           ref={menuRef}
           style={getMenuStyles(menuOpened)}
         ></ul>
+
+        <ul
+          className={`flexCenter ${css.menu}`}
+          ref={menuRef}
+          style={getMenuStyles(menuOpened)}
+        >        </ul>
 
           <li>
             <a href="#experience">Services</a>
